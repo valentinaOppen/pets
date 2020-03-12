@@ -31,6 +31,7 @@ export class WelcomePage {
 
   navigateToHome()
   {
+    debugger;
     this.navCtrl.setRoot(HomePage);
   }
 

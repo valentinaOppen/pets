@@ -1,7 +1,8 @@
 .container-home
 {
   position: relative;
-  // padding: 0 25%;
+  max-width: 730px;
+  margin:auto;
   min-height: 100vh;
   color: #52628C;
   background-color: white;
@@ -18,6 +19,7 @@
 
 .div-btn-home
 {
+  min-height: 120px;
   position: relative;
   margin: 2rem auto;
   text-align: left;
@@ -68,18 +70,24 @@
   font-size: 1.5rem;
   color: #4C88BA;
   font-weight: normal;
+  width:70%;
 }
 
 .div-img-btn
 {
   position:absolute;
   text-align: right;
-  margin-bottom: -1%;
+  margin-bottom: -3px;
+}
+
+.img-btn
+{
+  max-height: 120px;
 }
 
 .img-btn-paseo
 {
-  width: 55%;
+  // width: 50%;
   margin-right: 13%;
 }
 
