@@ -1,0 +1,39 @@
+
+<ion-header>
+  <ion-navbar>
+    <ion-title>Agregar Mascota</ion-title>
+    <button ion-button class="btn-back-close" (click)="navigateToOtherPage()"><ion-icon name="close"></ion-icon></button>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+<div class="container-add">
+  <div class="title-add">Queremos conocer a tu mascota</div>
+  <div class="div-form-add">
+      <form #form="ngForm" (ngSubmit)="navigateToOtherPage()" novalidate>
+          <ion-item>
+            <ion-label>Nombre</ion-label>
+            <ion-input type="text" required ngControl="name" ></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-label>Raza</ion-label>
+            <ion-select placeholder="">
+              <ion-option>Bulldog</ion-option>
+              <ion-option >Pug</ion-option>
+              <ion-option >Beagle</ion-option>
+            </ion-select>
+          </ion-item>
+          <ion-item>
+            <ion-label position="floating">Fecha de Nacimiento</ion-label>
+            <ion-datetime displayFormat="MM/DD/YYYY" min="1994-03-14" max="2012-12-09"></ion-datetime>
+          </ion-item>
+          <ion-item>
+            <div class="div-btns-foto">Sube una foto de tu mascota</div>
+            <div class="btn-galeria">Ver galería<ion-icon class="icon-foto" name="images"></ion-icon></div>
+            <div class="btn-galeria" style="float:right">Tomar foto<ion-icon class="icon-foto" name="camera"></ion-icon></div>
+          </ion-item>
+          <button ion-button class="btn-send-form" type="submit" block>Guardar</button>
+        </form>
+  </div>
+</div>
+</ion-content>

@@ -1,0 +1,58 @@
+page-add-form
+{
+  position: relative;
+}
+
+.container-add
+{
+  width:50%;
+  margin:auto;
+}
+
+.title-add
+{
+  text-align: left;
+  font-size: 5rem;
+  margin: 6rem 0;
+}
+
+.btn-back-close
+{
+  background-color: transparent !important;
+  color: white;
+  font-size: 3rem;
+  box-shadow: none;
+  position:absolute;
+  right: 30px;
+  top:20px;
+}
+
+.div-btns-foto
+{
+  margin-top:6rem;
+  color:#999999;
+}
+
+.btn-galeria
+{
+  float: left;
+  border: solid #999999 2px;
+  padding: 4rem;
+  border-radius: 10px;
+  margin: 4rem 0;
+  color:#999999;
+  width:48%;
+}
+
+.icon-foto
+{
+  color:#999999;
+  margin-left:2rem;
+}
+
+.btn-send-form
+{
+  margin: 10rem auto !important;
+  height: 70px !important;
+  font-size: 3rem !important;
+}
