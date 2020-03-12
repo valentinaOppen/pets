@@ -1,0 +1,71 @@
+.div-img-login
+{
+  width: fit-content;
+  margin:auto;
+  max-width: 40%;
+}
+
+.img-login
+{
+  position:relative;
+  z-index:1;
+}
+
+.div-form-login
+{
+  width: 40%;
+  margin:-4rem auto 1rem auto;
+  text-align: left;
+  border: solid 2px lightgrey;
+  padding: 4rem;
+  border-radius: 40px;
+  z-index: 2;
+  background-color: white;
+  position: relative;
+}
+
+.div-text-form
+{
+  font-size:4rem;
+  margin-bottom:4rem;
+}
+
+.label
+{
+  font-size:3rem !important;
+}
+
+.item-inner
+{
+  margin:1rem !important;
+}
+
+.btn-recover-pass a
+{
+  color:#9B9B9B !important;
+}
+
+a
+{
+  color:#9B9B9B !important;
+}
+
+.btn-send-form
+{
+  width: 90%;
+  margin: 3rem auto 0 auto;
+  font-size: 2rem;
+  border-radius: 10px;
+  height: 50px;
+}
+
+.btn-back-form
+{
+  width: 90%;
+  margin: 3rem auto 0 auto;
+  background-color:transparent !important;
+  font-size: 2rem;
+  border-radius: 10px;
+  height: 50px;
+  color:#9B9B9B !important;
+}

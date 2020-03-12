@@ -1,0 +1,60 @@
+.title-register
+{
+  margin-left:2rem;
+}
+
+.btn-back-register
+{
+  background-color: transparent !important;
+  color: black;
+  font-size: 3rem;
+  box-shadow: none;
+}
+
+.div-form-login
+{
+  width: 40%;
+  margin:1rem auto;
+  text-align: left;
+  border: solid 2px lightgrey;
+  padding: 4rem;
+  border-radius: 40px;
+  position: relative;
+}
+
+.div-text-form
+{
+  width: 40%;
+  margin: 6rem auto 3rem auto;
+  display: flex;
+}
+
+.label
+{
+  font-size:3rem !important;
+}
+
+.item-inner
+{
+  margin:1rem !important;
+}
+
+.btn-recover-pass a
+{
+  color:#9B9B9B !important;
+  font-size:2rem !important;
+}
+
+a
+{
+  color:#9B9B9B !important;
+}
+
+.btn-send-form
+{
+  width: 90%;
+  margin: 10rem auto 0 auto;
+  font-size: 2rem;
+  border-radius: 10px;
+  height: 50px;
+}

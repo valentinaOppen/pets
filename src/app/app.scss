@@ -1,5 +1,9 @@
 // http://ionicframework.com/docs/theming/
 
+.item-input ion-label
+{
+  max-width: unset !important
+}
 
 // App Global Sass
 // --------------------------------------------------

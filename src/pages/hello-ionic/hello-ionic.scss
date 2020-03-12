@@ -1,3 +1,85 @@
-page-hello-ionic {
+// page-hello-ionic {
 
+// }
+
+.container-home
+{
+  background-color: #4395AA;
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  color:white;
 }
+
+.btn-help-home
+{
+  position:absolute;
+  top:20px;
+  right:40px;
+  font-size:3rem;
+}
+
+.div-logo-waky
+{
+  padding-top: 80px;
+  width: fit-content;
+  margin: auto;
+  text-align: center;
+}
+
+.logo-waky
+{
+  width:15rem;
+}
+
+.txt-waky
+{
+  font-size: 6rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.div-btns-login
+{
+  width: fit-content;
+  margin: 6rem auto 1rem auto;
+}
+
+.btn-login
+{
+  width: 100%;
+  font-size: 3rem;
+  margin: 1rem;
+  padding: 2rem 8rem;
+  border-radius: 20px;
+}
+
+.btn-login-fb
+{
+  background-color:#3A5A97;
+  color:white;
+}
+
+.btn-login-ss
+{
+  background-color:#B496FA;
+  color:white;
+}
+
+.btn-register
+{
+  background-color: #FFC14D;
+  color:white;
+}
+
+.div-img-home
+{
+  width:fit-content;
+  margin:auto;
+}
+
+.img-perrito
+{
+  width:30rem;
+}
+

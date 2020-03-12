@@ -1,25 +1,27 @@
-<ion-header>
+<!-- <ion-header>
   <ion-navbar>
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
     <ion-title>Hello Ionic</ion-title>
   </ion-navbar>
-</ion-header>
+</ion-header> -->
 
-
-<ion-content padding>
-
-  <h3>Welcome to your first Ionic app!</h3>
-
-  <p>
-    This starter project is our way of helping you get a functional app running in record time.
-  </p>
-  <p>
-    Follow along on the tutorial section of the Ionic docs!
-  </p>
-  <p>
-    <button ion-button color="primary" menuToggle>Toggle Menu</button>
-  </p>
+<ion-content>
+  <div class="container-home">
+    <div class="btn-help-home">Ayuda</div>
+    <div class="div-logo-waky">
+      <img src="../../assets/imgs/logo-waky.png" alt="" class="logo-waky">
+      <div class="txt-waky">Wakypet</div>
+    </div>
+    <div class="div-btns-login">
+      <div class="div-btn-login"><button class="btn-login btn-login-fb">Entrar por Facebook</button></div>
+      <div class="div-btn-login"><button class="btn-login btn-login-ss" (click)="navigateToLogin()">Iniciar Sesión</button></div>
+      <div class="div-btn-login"><button class="btn-login btn-register" (click)="navigateToRegister()">Registrarse</button></div>
+    </div>
+    <div class="div-img-home">
+      <img src="../../assets/imgs/perrito.png" alt="" class="img-perrito">
+    </div>
+  </div>
 
 </ion-content>
