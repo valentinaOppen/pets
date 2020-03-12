@@ -10,7 +10,7 @@
 .swiper-pagination-custom,
 .swiper-container-horizontal > .swiper-pagination-bullets {
   left: 0;
-  bottom: 30rem;
+  bottom: 17rem;
   width: 100%;
 }
 
@@ -20,11 +20,17 @@
   color:white;
 }
 
+.toolbar-content-md
+{
+  display: flex !important;
+}
+
 .toolbar-title-md
 {
   color:white !important;
-  font-size: 3rem;
-  margin:2rem auto;
+  font-size: 2rem;
+  margin:1rem 0;
+  width: 80%;
 }
 
 .bar-button-default-md,

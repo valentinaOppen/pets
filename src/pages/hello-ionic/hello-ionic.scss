@@ -2,9 +2,9 @@
 
 // }
 
-.container-home
+.container-hello
 {
-  background-color: #4395AA;
+  background-color: #3F9BF4;
   position: relative;
   width: 100%;
   min-height: 100vh;
@@ -16,7 +16,7 @@
   position:absolute;
   top:20px;
   right:40px;
-  font-size:3rem;
+  font-size:2rem;
 }
 
 .div-logo-waky
@@ -34,7 +34,7 @@
 
 .txt-waky
 {
-  font-size: 6rem;
+  font-size: 4rem;
   text-align: center;
   margin-top: 1rem;
 }
@@ -48,9 +48,9 @@
 .btn-login
 {
   width: 100%;
-  font-size: 3rem;
-  margin: 1rem;
-  padding: 2rem 8rem;
+  font-size: 2rem;
+  margin: 1rem 0;
+  padding: 2rem 5rem;
   border-radius: 20px;
 }
 
@@ -80,6 +80,6 @@
 
 .img-perrito
 {
-  width:30rem;
+  width:20rem;
 }
 

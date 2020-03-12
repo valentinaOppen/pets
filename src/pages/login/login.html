@@ -12,11 +12,13 @@
 
 <ion-content>
 <div class="container-login">
+
   <div class="div-img-login">
+      <button ion-button class="btn-back-login" (click)="navigateToOtherPage()"><ion-icon name="arrow-back"></ion-icon></button>
     <img src="../../assets/imgs/paseo-perrito.jpg" alt="" class="img-login">
   </div>
   <div class="div-form-login">
-    <div class="div-text-form">
+    <div class="div-text-form-login">
       ¡Inicia sesión para que empecemos este paseo!
     </div>
     <form #form="ngForm" (ngSubmit)="navigateToWelcome()" novalidate>
@@ -31,8 +33,8 @@
       <ion-item>
         <a class="btn-recover-pass" href="">¿Olvidaste la contraseña?</a>
       </ion-item>
-      <button ion-button class="btn-send-form" type="submit" block>Entrar</button>
-      <button ion-button class="btn-back-form" (click)="navigateToOtherPage()">Volver</button>
+      <button ion-button class="btn-send-form-login" type="submit" block>Entrar</button>
+
     </form>
 
   </div>

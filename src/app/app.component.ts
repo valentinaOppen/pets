@@ -36,7 +36,10 @@ export class MyApp {
       { title: 'Home', component: HomePage},
       { title: 'Login', component: LoginPage},
       { title: 'Register', component: RegisterPage},
-      { title: 'Agregar Mascota', component: AddFormPage}
+      { title: 'Agregar Mascota', component: AddFormPage},
+      { title: 'Welcome', component: HelloIonicPage},
+
+
     ];
   }
 

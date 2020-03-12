@@ -1,42 +1,50 @@
-.title-register
-{
-  margin-left:2rem;
-}
+// .title-register
+// {
+//   margin-left:2rem;
+// }
 
 .btn-back-register
 {
   background-color: transparent !important;
   color: black;
-  font-size: 3rem;
+  font-size: 2rem;
   box-shadow: none;
+  padding:1.6rem;
 }
 
-.div-form-login
+.div-form-register
 {
-  width: 40%;
+  // width: 40%;
   margin:1rem auto;
   text-align: left;
-  border: solid 2px lightgrey;
-  padding: 4rem;
+  // border: solid 2px lightgrey;
+  padding: 2rem 2rem;
   border-radius: 40px;
   position: relative;
 }
 
-.div-text-form
+.div-text-form-register
 {
-  width: 40%;
-  margin: 6rem auto 3rem auto;
+  // width: 40%;
+  margin: 4rem auto 3rem auto;
   display: flex;
+  font-size:2rem;
 }
+
 
 .label
 {
-  font-size:3rem !important;
+  font-size:1.5rem !important;
 }
 
 .item-inner
 {
   margin:1rem !important;
+}
+
+.item.item-md .checkbox-md
+{
+  margin: 9px 0px 9px 4px;
 }
 
 .btn-recover-pass a
@@ -50,11 +58,11 @@ a
   color:#9B9B9B !important;
 }
 
-.btn-send-form
+.btn-send-form-register
 {
   width: 90%;
-  margin: 10rem auto 0 auto;
-  font-size: 2rem;
+  margin: 5rem auto;
+  font-size: 1.8rem;
   border-radius: 10px;
   height: 50px;
 }

@@ -1,7 +1,7 @@
 .container-home
 {
   position: relative;
-  padding: 0 25%;
+  // padding: 0 25%;
   min-height: 100vh;
   color: #52628C;
   background-color: white;
@@ -12,17 +12,27 @@
 .div-text-home
 {
   margin:5rem auto;
-  font-size:5rem;
+  font-size:2rem;
   font-weight: bolder;
 }
 
 .div-btn-home
 {
   position: relative;
-  margin: 3rem auto;
+  margin: 2rem auto;
   text-align: left;
   padding: 2rem;
-  width: 70rem;
+  width: 90%;
+  border-radius: 10px;
+}
+
+.div-btn-home-opc
+{
+  position: relative;
+  margin: 1rem auto;
+  text-align: left;
+  padding: 1rem;
+  width: 90%;
   border-radius: 10px;
 }
 
@@ -41,41 +51,42 @@
 {
   position: absolute;
   bottom: 0;
-  right: 0;
+  right: -5px;
   width: 40%;
 }
 
 .title-btn
 {
-  font-size:4rem;
-  margin:2rem;
-  color:#5B7C9D;
+  font-size: 2rem;
+  margin: .5rem 0;
+  color: #5B7C9D;
 }
 
 .text-btn
 {
-  margin:2rem;
-  font-size:2.5rem;
-  color:#4C88BA;
+  // margin:2rem;
+  font-size: 1.5rem;
+  color: #4C88BA;
+  font-weight: normal;
 }
 
 .div-img-btn
 {
   position:absolute;
   text-align: right;
+  margin-bottom: -1%;
 }
 
 .img-btn-paseo
 {
-  width: 47%;
-  margin-right: 24%;
-  margin-bottom: -1%;
+  width: 55%;
+  margin-right: 13%;
 }
 
 .title-btn-opc
 {
   margin:2rem 0;
-  font-size:2.5rem;
+  font-size:2rem;
   color:#475A7F
 }
 
@@ -83,5 +94,5 @@
 {
   color:#D8D8D8;
   margin:2rem 0;
-  font-size:2.5rem;
+  font-size:2rem;
 }

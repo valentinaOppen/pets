@@ -5,31 +5,33 @@ page-add-form
 
 .container-add
 {
-  width:50%;
+  // width:50%;
   margin:auto;
+  font-size:1rem;
 }
 
 .title-add
 {
   text-align: left;
-  font-size: 5rem;
-  margin: 6rem 0;
+  font-size: 2rem;
+  margin: 4rem auto 2rem auto;
+  width: 90%;
 }
 
 .btn-back-close
 {
   background-color: transparent !important;
   color: white;
-  font-size: 3rem;
+  font-size: 2rem;
   box-shadow: none;
-  position:absolute;
-  right: 30px;
-  top:20px;
+  width: 20%;
+  float: right;
+  margin: auto;
 }
 
 .div-btns-foto
 {
-  margin-top:6rem;
+  margin-top:2rem;
   color:#999999;
 }
 
@@ -37,7 +39,7 @@ page-add-form
 {
   float: left;
   border: solid #999999 2px;
-  padding: 4rem;
+  padding: 2rem;
   border-radius: 10px;
   margin: 4rem 0;
   color:#999999;
@@ -52,7 +54,10 @@ page-add-form
 
 .btn-send-form
 {
-  margin: 10rem auto !important;
-  height: 70px !important;
-  font-size: 3rem !important;
+  margin: 5rem auto !important;
+  height: 50px !important;
+  font-size: 2rem !important;
+  width: 80%;
+  border-radius: 10px;
+
 }

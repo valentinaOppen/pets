@@ -1,8 +1,24 @@
+
+
+
 .div-img-login
 {
   width: fit-content;
   margin:auto;
-  max-width: 40%;
+  // max-width: 40%;
+  position:relative;
+}
+
+.btn-back-login
+{
+  background-color: transparent !important;
+  font-size: 2rem;
+  box-shadow: none;
+  position: absolute;
+  color: white !important;
+  top: 10px;
+  left: 0px;
+  z-index: 10;
 }
 
 .img-login
@@ -13,31 +29,34 @@
 
 .div-form-login
 {
-  width: 40%;
-  margin:-4rem auto 1rem auto;
+  // width: 40%;
+  margin:-3rem auto 1rem auto !important;
   text-align: left;
   border: solid 2px lightgrey;
-  padding: 4rem;
-  border-radius: 40px;
+  padding: 3rem;
+  border-radius: 30px;
   z-index: 2;
   background-color: white;
   position: relative;
 }
 
-.div-text-form
+.div-text-form-login
 {
-  font-size:4rem;
-  margin-bottom:4rem;
+  width:100% !important;
+  font-size:2rem;
+  font-weight: bolder !important;
+  margin-bottom:2rem;
+  padding-left:16px;
 }
 
 .label
 {
-  font-size:3rem !important;
+  font-size:1.5rem !important;
 }
 
 .item-inner
 {
-  margin:1rem !important;
+  margin:.5rem !important;
 }
 
 .btn-recover-pass a
@@ -50,11 +69,11 @@ a
   color:#9B9B9B !important;
 }
 
-.btn-send-form
+.btn-send-form-login
 {
   width: 90%;
-  margin: 3rem auto 0 auto;
-  font-size: 2rem;
+  margin: 3rem auto 0 auto !important;
+  font-size: 1.7rem;
   border-radius: 10px;
   height: 50px;
 }
@@ -62,7 +81,7 @@ a
 .btn-back-form
 {
   width: 90%;
-  margin: 3rem auto 0 auto;
+  margin: 3rem auto 0 auto !important;
   background-color:transparent !important;
   font-size: 2rem;
   border-radius: 10px;
