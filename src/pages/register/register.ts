@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { HelloIonicPage } from '../hello-ionic/hello-ionic';
+import { WelcomePage } from '../welcome/welcome';
 
 /**
  * Generated class for the RegisterPage page.
@@ -28,7 +29,9 @@ export class RegisterPage {
     this.navCtrl.setRoot(HelloIonicPage);
   }
 
-  sendRegister(form)
-  {}
+  navigateToWelcome():void
+  {
+    this.navCtrl.setRoot(WelcomePage);
+  }
 
 }

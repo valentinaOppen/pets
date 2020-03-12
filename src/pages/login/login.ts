@@ -2,6 +2,8 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import {Validators, FormBuilder, FormGroup } from '@angular/forms';
 import { HelloIonicPage } from '../hello-ionic/hello-ionic';
+import { WelcomePage } from '../welcome/welcome';
+
 /**
  * Generated class for the LoginPage page.
  *
@@ -37,6 +39,11 @@ export class LoginPage
   navigateToOtherPage():void
   {
     this.navCtrl.setRoot(HelloIonicPage);
+  }
+
+  navigateToWelcome():void
+  {
+    this.navCtrl.setRoot(WelcomePage);
   }
 
   ionViewDidLoad() {

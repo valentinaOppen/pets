@@ -13,7 +13,7 @@
       <div class="title-register">Regístrate, así podemos <br> conocerte mejor</div>
     </div>
     <div class="div-form-login">
-        <form #form="ngForm" (ngSubmit)="sendRegister(form)" novalidate>
+        <form #form="ngForm" (ngSubmit)="navigateToWelcome()" novalidate>
             <ion-item>
               <ion-label>Nombre</ion-label>
               <ion-input type="text" required ngControl="name" ></ion-input>

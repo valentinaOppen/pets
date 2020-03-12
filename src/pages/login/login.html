@@ -19,7 +19,7 @@
     <div class="div-text-form">
       ¡Inicia sesión para que empecemos este paseo!
     </div>
-    <form #form="ngForm" (ngSubmit)="sendLogin(form)" novalidate>
+    <form #form="ngForm" (ngSubmit)="navigateToWelcome()" novalidate>
       <ion-item>
         <ion-label>Correo Electrónico</ion-label>
         <ion-input type="text" required ngControl="email" ></ion-input>

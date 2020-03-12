@@ -2,6 +2,7 @@ import { Component, ViewChild } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { LoginPage } from '../login/login';
 import { RegisterPage } from '../register/register';
+import { HomePage } from '../home/home';
 
 @Component({
   selector: 'page-hello-ionic',
@@ -21,6 +22,11 @@ export class HelloIonicPage {
   navigateToRegister():void
   {
     this.navCtrl.setRoot(RegisterPage);
+  }
+
+  navigateToHome():void
+  {
+    this.navCtrl.setRoot(HomePage);
   }
 
 }
