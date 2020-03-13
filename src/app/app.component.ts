@@ -11,6 +11,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { LoginPage } from '../pages/login/login';
 import { RegisterPage } from '../pages/register/register';
 import { AddFormPage } from '../pages/add-form/add-form';
+import { ListPetsPage } from '../pages/list-pets/list-pets';
 
 
 @Component({
@@ -38,6 +39,7 @@ export class MyApp {
       { title: 'Register', component: RegisterPage},
       { title: 'Agregar Mascota', component: AddFormPage},
       { title: 'Welcome', component: HelloIonicPage},
+      { title: 'Lista Mascotas', component: ListPetsPage},
 
 
     ];

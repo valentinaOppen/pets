@@ -30,7 +30,7 @@
   color:white !important;
   font-size: 2rem;
   margin:1rem 0;
-  width: 80%;
+  // width: 80%;
 }
 
 .bar-button-default-md,
@@ -54,3 +54,27 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+
+
+/* Core CSS required for Ionic components to work properly */
+@import "~@ionic/angular/css/core.css";
+
+/* Basic CSS for apps built with Ionic */
+@import "~@ionic/angular/css/normalize.css";
+@import "~@ionic/angular/css/structure.css";
+@import "~@ionic/angular/css/typography.css";
+@import '~@ionic/angular/css/display.css';
+
+/* Optional CSS utils that can be commented out */
+@import "~@ionic/angular/css/padding.css";
+@import "~@ionic/angular/css/float-elements.css";
+@import "~@ionic/angular/css/text-alignment.css";
+@import "~@ionic/angular/css/text-transformation.css";
+@import "~@ionic/angular/css/flex-utils.css";
+
+/* NGX Datatable CSS */
+@import '~assets/styles/ngx-datatable/_index.css';
+@import '~assets/styles/ngx-datatable/_dark.css';
+@import '~assets/styles/ngx-datatable/_material.css';
+@import '~assets/styles/ngx-datatable/_bootstrap.css';
+@import '~assets/styles/ngx-datatable/_icons.css'

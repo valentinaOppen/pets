@@ -1,5 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule, ErrorHandler } from '@angular/core';
+import { NgModule, ErrorHandler, CUSTOM_ELEMENTS_SCHEMA    } from '@angular/core';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
 
@@ -8,6 +8,7 @@ import { LoginPage } from '../pages/login/login';
 import { RegisterPage } from '../pages/register/register';
 import { WelcomePage } from '../pages/welcome/welcome';
 import { AddFormPage } from '../pages/add-form/add-form';
+import { ListPetsPage } from '../pages/list-pets/list-pets';
 
 import { HelloIonicPage } from '../pages/hello-ionic/hello-ionic';
 import { ItemDetailsPage } from '../pages/item-details/item-details';
@@ -15,6 +16,8 @@ import { ListPage } from '../pages/list/list';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+
+import { NgxDatatableModule } from '@swimlane/ngx-datatable';
 
 @NgModule({
   declarations: [
@@ -26,11 +29,14 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     LoginPage,
     RegisterPage,
     WelcomePage,
-    AddFormPage
+    AddFormPage,
+    ListPetsPage
   ],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA],
   imports: [
     BrowserModule,
     IonicModule.forRoot(MyApp),
+    NgxDatatableModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -42,7 +48,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     LoginPage,
     RegisterPage,
     WelcomePage,
-    AddFormPage
+    AddFormPage,
+    ListPetsPage
   ],
   providers: [
     StatusBar,
