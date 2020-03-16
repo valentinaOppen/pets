@@ -13,7 +13,6 @@ import { RegisterPage } from '../pages/register/register';
 import { AddFormPage } from '../pages/add-form/add-form';
 import { ListPetsPage } from '../pages/list-pets/list-pets';
 
-
 @Component({
   templateUrl: 'app.html'
 })
