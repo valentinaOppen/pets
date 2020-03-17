@@ -17,6 +17,12 @@
   src: url('../assets/fonts/Lato/Lato-Regular.ttf');
 }
 
+@font-face
+{
+  font-family: 'RobotoReg';
+  src: url('../assets/fonts/Roboto/Roboto-Regular.ttf');
+}
+
 .form-login .item-inner
 {
   border:none !important;
@@ -69,12 +75,50 @@
   width: 100%;
 }
 
+ion-navbar.toolbar
+{
+  height:80px;
+}
+
 .toolbar-background-md {
   border-color: #4889F6 !important;
   background: #4889F6 !important;
   color:white;
 }
 
+.header-ios .toolbar-background-ios,
+.footer-ios .toolbar-background-ios
+{
+  border-color: #4889F6 !important;
+  background: #4889F6 !important;
+  color:white !important;
+}
+
+.toolbar-title-ios
+{
+  text-align: left !important;
+  font-size: 20px !important;
+  font-family: RobotoReg !important;
+  color: white !important;
+  margin-left: 75px !important;
+}
+
+.toolbar-ios ion-title
+{
+  padding:0 !important;
+}
+
+.bar-button-menutoggle-ios
+{
+  margin: 0 0 0 19px;
+}
+
+.bar-button-default-ios,
+.bar-button-default.bar-button-ios-default,
+.bar-button-clear-ios-default
+{
+  color:white !important;
+}
 .toolbar-content-md
 {
   display: flex !important;
