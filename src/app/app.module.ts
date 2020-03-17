@@ -9,6 +9,7 @@ import { RegisterPage } from '../pages/register/register';
 import { WelcomePage } from '../pages/welcome/welcome';
 import { AddFormPage } from '../pages/add-form/add-form';
 import { ListPetsPage } from '../pages/list-pets/list-pets';
+import { WakypetLogoPage } from '../pages/wakypet-logo/wakypet-logo';
 
 import { HelloIonicPage } from '../pages/hello-ionic/hello-ionic';
 import { ItemDetailsPage } from '../pages/item-details/item-details';
@@ -32,7 +33,8 @@ import { LoadingPage } from '../pages/loading/loading';
     WelcomePage,
     AddFormPage,
     ListPetsPage,
-    LoadingPage
+    LoadingPage,
+    WakypetLogoPage
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   imports: [
@@ -52,7 +54,8 @@ import { LoadingPage } from '../pages/loading/loading';
     WelcomePage,
     AddFormPage,
     ListPetsPage,
-    LoadingPage
+    LoadingPage,
+    WakypetLogoPage
   ],
   providers: [
     StatusBar,

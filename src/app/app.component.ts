@@ -13,6 +13,7 @@ import { RegisterPage } from '../pages/register/register';
 import { AddFormPage } from '../pages/add-form/add-form';
 import { ListPetsPage } from '../pages/list-pets/list-pets';
 import { LoadingPage } from '../pages/loading/loading';
+import { WakypetLogoPage } from '../pages/wakypet-logo/wakypet-logo';
 
 @Component({
   templateUrl: 'app.html'
@@ -41,6 +42,7 @@ export class MyApp {
       { title: 'Welcome', component: HelloIonicPage},
       { title: 'Lista Mascotas', component: ListPetsPage},
       { title: 'Loading', component: LoadingPage},
+      { title: 'Wakypet', component: WakypetLogoPage},
 
 
     ];
