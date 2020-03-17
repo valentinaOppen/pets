@@ -7,36 +7,41 @@
 .btn-saltar
 {
   position:absolute;
-  top:30px;
-  right:40px;
-  font-size:2rem;
+  top:35px;
+  right:17px;
+  font-size:16px;
   background-color: transparent;
+  font-family: LatoReg;
+  color:#575C71;
 }
 
 .div-slide
 {
-  margin-top:10rem;
+  margin-top:54px;
 }
 
 .title-slide
 {
-  color: #3C92D9;
-  font-size: 3rem;
-  margin: 4rem auto 3rem auto;
+  color: #0099F2;
+  font-size: 24px;
+  margin: 43px auto 16px auto;
+  font-family: LatoBold;
 }
 
 .text-slide
 {
-  font-size: 2rem;
-  color: grey;
+  font-size: 16px;
+  color: #575C71;
   width: 80%;
   margin: auto;
   margin-bottom:5rem;
+  height: 93px;
 }
 
 .img-slide
 {
-  height: 400px !important;
+  width:327px;
+  height: 307px;
 }
 
 .bold
