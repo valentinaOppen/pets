@@ -9,11 +9,11 @@
   <div class="content-register">
     <div class="div-text-form-register">
 
-      <button ion-button class="btn-back-register" (click)="navigateToOtherPage()"><ion-icon name="arrow-back"></ion-icon></button>
+      <button ion-button class="btn-back-register" (click)="navigateToOtherPage()"><ion-icon name="arrow-back-outline"></ion-icon></button>
       <div class="title-register">Regístrate, así podemos conocerte mejor</div>
     </div>
     <div class="div-form-register">
-        <form #form="ngForm" (ngSubmit)="navigateToWelcome()" novalidate>
+        <form #form="ngForm" class="form-login" (ngSubmit)="navigateToWelcome()" novalidate>
             <ion-item>
               <ion-label>Nombre</ion-label>
               <ion-input type="text" required ngControl="name" ></ion-input>
@@ -30,11 +30,11 @@
               <ion-label>Confirma la contraseña</ion-label>
               <ion-input ngControl="passwordConf"></ion-input>
             </ion-item>
-            <ion-item>
+            <ion-item class="item-checkbox-button">
               <ion-checkbox></ion-checkbox>
               <ion-label>
-              <a class="btn-recover-pass" href="" style="font-size:1.5rem !important; white-space: normal;">Aceptar términos y condiciones y política de privacidad</a>
-            </ion-label>
+                <a class="btn-recover-pass" href="" style="font-size:1.5rem !important; white-space: normal;">Aceptar términos y condiciones y política de privacidad</a>
+              </ion-label>
             </ion-item>
             <button ion-button class="btn-send-form-register" type="submit" block>Listo</button>
           </form>
