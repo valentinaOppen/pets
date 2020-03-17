@@ -1,10 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { HomePage } from '../home/home';
-
 
 /**
- * Generated class for the WelcomePage page.
+ * Generated class for the LoadingPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -12,26 +10,16 @@ import { HomePage } from '../home/home';
 
 @IonicPage()
 @Component({
-  selector: 'page-welcome',
-  templateUrl: 'welcome.html',
+  selector: 'page-loading',
+  templateUrl: 'loading.html',
 })
-export class WelcomePage {
-
-  slideOpts = {
-    initialSlide: 1,
-    speed: 400
-  };
+export class LoadingPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad WelcomePage');
-  }
-
-  navigateToHome()
-  {
-    this.navCtrl.setRoot(HomePage);
+    console.log('ionViewDidLoad LoadingPage');
   }
 
 }

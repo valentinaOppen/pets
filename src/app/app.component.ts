@@ -12,6 +12,7 @@ import { LoginPage } from '../pages/login/login';
 import { RegisterPage } from '../pages/register/register';
 import { AddFormPage } from '../pages/add-form/add-form';
 import { ListPetsPage } from '../pages/list-pets/list-pets';
+import { LoadingPage } from '../pages/loading/loading';
 
 @Component({
   templateUrl: 'app.html'
@@ -39,6 +40,7 @@ export class MyApp {
       { title: 'Agregar Mascota', component: AddFormPage},
       { title: 'Welcome', component: HelloIonicPage},
       { title: 'Lista Mascotas', component: ListPetsPage},
+      { title: 'Loading', component: LoadingPage},
 
 
     ];

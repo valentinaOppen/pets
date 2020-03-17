@@ -18,6 +18,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { NgxDatatableModule } from '@swimlane/ngx-datatable';
+import { LoadingPage } from '../pages/loading/loading';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { NgxDatatableModule } from '@swimlane/ngx-datatable';
     RegisterPage,
     WelcomePage,
     AddFormPage,
-    ListPetsPage
+    ListPetsPage,
+    LoadingPage
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   imports: [
@@ -49,7 +51,8 @@ import { NgxDatatableModule } from '@swimlane/ngx-datatable';
     RegisterPage,
     WelcomePage,
     AddFormPage,
-    ListPetsPage
+    ListPetsPage,
+    LoadingPage
   ],
   providers: [
     StatusBar,
