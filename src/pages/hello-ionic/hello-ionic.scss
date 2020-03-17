@@ -14,9 +14,9 @@
 .btn-help-home
 {
   position:absolute;
-  top:15px;
-  right:14.25px;
-  font-size:13.5px;
+  top:20px;
+  right:19px;
+  font-size:18px;
 }
 
 .div-logo-waky
@@ -29,7 +29,7 @@
 
 .logo-waky
 {
-  width:125px;
+  width:170px;
 }
 
 .txt-waky
@@ -41,20 +41,39 @@
 
 .div-btns-login
 {
-  margin: 52px auto 15px auto;
-  width:fit-content;
+  margin: 50px 44px 14px 56px;
+  width:calc(100% - 100px);
 }
 
 .btn-login
 {
-  font-size: 13.5px;
+  font-size: 18px;
   font-weight: bold;
-  width: 206px;
-  height: 34px;
+  width: 100%;
+  height: 45px;
   margin: 1rem 0;
   // padding: 2rem 5rem;
   border-radius: 8px;
   font-family: LatoBold;
+}
+
+.div-button-fb
+{
+  display: flex;
+  margin: auto;
+  width: fit-content;
+}
+
+.text-fb
+{
+  margin:auto;
+}
+
+.img-logo-fb
+{
+  width:23px;
+  height: 23px;
+  margin-right:12px;
 }
 
 .btn-login-fb

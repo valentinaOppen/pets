@@ -3,11 +3,17 @@
   <div class="container-hello">
     <div class="btn-help-home">Ayuda</div>
     <div class="div-logo-waky">
-      <img src="../../assets/imgs/logo-waky.png" alt="" class="logo-waky">
-      <div class="txt-waky">Wakypet</div>
+      <img src="./assets/imgs/logo.svg" alt="" />
     </div>
     <div class="div-btns-login">
-      <div class="div-btn-login"><button class="btn-login btn-login-fb" (click)="navigateToHome()">Entrar por Facebook</button></div>
+      <div class="div-btn-login">
+        <button class="btn-login btn-login-fb" (click)="navigateToHome()">
+          <div class="div-button-fb">
+            <img src="./assets/imgs/logo_fb.svg" class="img-logo-fb" alt=""/>
+            <div class="text-fb">Entrar por Facebook</div>
+          </div>
+        </button>
+      </div>
       <div class="div-btn-login"><button class="btn-login btn-login-ss" (click)="navigateToLogin()">Iniciar Sesión</button></div>
       <div class="div-btn-login"><button class="btn-login btn-register" (click)="navigateToRegister()">Registrarse</button></div>
     </div>
