@@ -14,9 +14,9 @@
 .btn-help-home
 {
   position:absolute;
-  top:20px;
-  right:19px;
-  font-size:18px;
+  top:15px;
+  right:14.25px;
+  font-size:13.5px;
 }
 
 .div-logo-waky
@@ -29,7 +29,7 @@
 
 .logo-waky
 {
-  width:15rem;
+  width:125px;
 }
 
 .txt-waky
@@ -41,19 +41,20 @@
 
 .div-btns-login
 {
-  margin: 60.48px auto 14px auto;
+  margin: 52px auto 15px auto;
   width:fit-content;
 }
 
 .btn-login
 {
-  font-size: 18px;
+  font-size: 13.5px;
   font-weight: bold;
-  width: 275px;
-  height: 56px;
+  width: 206px;
+  height: 34px;
   margin: 1rem 0;
   // padding: 2rem 5rem;
   border-radius: 8px;
+  font-family: LatoBold;
 }
 
 .btn-login-fb
