@@ -1,15 +1,68 @@
 // http://ionicframework.com/docs/theming/
 
-*
+// *
+// {
+//   font-family: 'Lato', sans-serif;
+// }
+
+@font-face
 {
-  font-family: 'Lato', sans-serif;
+  font-family: 'LatoBold';
+  src: url('../assets/fonts/Lato/Lato-Bold.ttf');
 }
 
+@font-face
+{
+  font-family: 'LatoReg';
+  src: url('../assets/fonts/Lato/Lato-Regular.ttf');
+}
+
+.form-login .item-inner
+{
+  border:none !important;
+  margin: 0rem 38px 0 0rem!important;
+}
+
+.form-login-pass .item-inner
+{
+  border:none !important;
+  margin: 0rem 1rem 0 1rem !important;
+}
+
+.form-login .item-inner .input-wrapper
+{
+  padding-top:30px;
+}
+
+.form-login-pass .item-inner .input-wrapper
+{
+  padding-top:0px;
+}
+
+.form.login-pass .item-ios
+{
+  padding-left:0 !important;
+}
+
+.form.login .item-ios
+{
+  padding-left:0 !important;
+}
+
+.item-input ion-input, .item-input ion-textarea {
+  position: static;
+  border: solid 1px grey;
+  border-radius: 8px;
+}
 
 .item-input ion-label
 {
   max-width: unset !important;
-  color: black;
+  color: #575C71;
+  position: absolute;
+  bottom:40px;
+  font-size:16px;
+  font-family: LatoReg;
 }
 
 .swiper-pagination-fraction,

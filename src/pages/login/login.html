@@ -14,23 +14,23 @@
 <div class="container-login">
 
   <div class="div-img-login">
-      <button ion-button class="btn-back-login" (click)="navigateToOtherPage()"><ion-icon name="arrow-back"></ion-icon></button>
-    <img src="../../assets/imgs/paseo-perrito.jpg" alt="" class="img-login">
+      <!-- <button ion-button class="btn-back-login" (click)="navigateToOtherPage()"><ion-icon name="arrow-back"></ion-icon></button> -->
+    <img src="../../assets/imgs/shutterstock_1399290365.png" alt="" class="img-login">
   </div>
   <div class="div-form-login">
     <div class="div-text-form-login">
       ¡Inicia sesión para que empecemos este paseo!
     </div>
-    <form #form="ngForm" (ngSubmit)="navigateToWelcome()" novalidate>
-      <ion-item>
+    <form class="form-login" #form="ngForm" (ngSubmit)="navigateToWelcome()" novalidate>
+      <ion-item class="form-login">
         <ion-label>Correo Electrónico</ion-label>
         <ion-input type="text" required ngControl="email" ></ion-input>
       </ion-item>
-      <ion-item>
+      <ion-item class="form-login">
         <ion-label>Contraseña</ion-label>
         <ion-input ngControl="password"></ion-input>
       </ion-item>
-      <ion-item>
+      <ion-item class="form-login-pass">
         <a class="btn-recover-pass" href="">¿Olvidaste la contraseña?</a>
       </ion-item>
       <button ion-button class="btn-send-form-login" type="submit" block>Entrar</button>

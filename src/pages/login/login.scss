@@ -5,7 +5,6 @@
 {
   width: fit-content;
   margin:auto;
-  // max-width: 40%;
   position:relative;
 }
 
@@ -29,24 +28,30 @@
 
 .div-form-login
 {
-  max-width: 730px;
-  margin:-3rem auto 1rem auto !important;
+  max-width: 522px;
+  margin:-31px auto 0 auto !important;
   text-align: left;
   border: solid 2px lightgrey;
-  padding: 3rem;
   border-radius: 30px;
   z-index: 2;
   background-color: white;
   position: relative;
 }
 
+.form-login
+{
+  padding-top:5px;
+  padding-left:15px;
+}
+
 .div-text-form-login
 {
-  width:100% !important;
-  font-size:2rem;
-  font-weight: bolder !important;
-  margin-bottom:2rem;
-  padding-left:16px;
+  width:80% !important;
+  font-size:22px;
+  color:#01002F;
+  padding:31px 0 0 32px;
+  margin-bottom:10px;
+  font-family: LatoBold;
 }
 
 .label
@@ -61,6 +66,8 @@
 
 .btn-recover-pass a
 {
+  margin-top:8px;
+  padding-left:30px !important;
   color:#9B9B9B !important;
 }
 
@@ -71,8 +78,8 @@ a
 
 .btn-send-form-login
 {
-  width: 90%;
-  margin: 3rem auto 0 auto !important;
+  width: calc(100% - 61px);
+  margin: 22px 46px 22px 15px;
   font-size: 1.7rem;
   border-radius: 10px;
   height: 50px;
