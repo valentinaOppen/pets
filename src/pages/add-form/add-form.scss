@@ -61,12 +61,28 @@
   color:black;
 }
 
+.placeholder-black .text-input-ios
+{
+  padding: 0 0 0 15px !important;
+}
+
+.item-btn .item-inner
+{
+  padding-right:0px !important;
+}
+
+.item-btn .item-inner .input-wrapper .label-ios
+{
+  margin:0px 7px 0px 0px !important;
+}
+
 .btn-galeria
 {
   float: left;
   border: solid #999999 2px;
-  padding: 2rem;
-  border-radius: 10px;
+  padding: 22px 0;
+  text-align: center;
+  border-radius: 6px;
   margin: 12px 0;
   color:#999999;
   width:48%;
