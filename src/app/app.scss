@@ -29,11 +29,94 @@
   src: url('../assets/fonts/Roboto/Roboto-Regular.ttf');
 }
 
-ion-select
+// NAVBAR
+
+.button-ios
 {
-  max-width: 95% !important;
-  width: 100% !important;
+  background:transparent !important;
 }
+
+ion-navbar.toolbar
+{
+  height:80px;
+}
+
+.toolbar-background-md {
+  border-color: #4889F6 !important;
+  background: #4889F6 !important;
+  color:white;
+}
+
+.header-ios .toolbar-background-ios,
+.footer-ios .toolbar-background-ios
+{
+  border-color: #4889F6 !important;
+  background: #4889F6 !important;
+  color:white !important;
+}
+
+.title-add-mascota .toolbar-title-ios
+{
+  margin-left:15px !important;
+}
+
+.title-add-pasep .toolbar-title-ios
+{
+  margin-left:75px !important;
+}
+
+.item-add-pet-input .text-input-ios
+{
+  padding-left:15px;
+}
+
+.toolbar-title-ios
+{
+  text-align: left !important;
+  font-size: 20px !important;
+  font-family: RobotoReg !important;
+  color: white !important;
+  margin-left: 75px !important;
+}
+
+.toolbar-ios ion-title
+{
+  padding:0 !important;
+}
+
+.bar-button-menutoggle-ios
+{
+  margin: 0 0 0 19px;
+}
+
+.bar-button-default-ios,
+.bar-button-default.bar-button-ios-default,
+.bar-button-clear-ios-default
+{
+  color:white !important;
+}
+.toolbar-content-md
+{
+  display: flex !important;
+}
+
+.toolbar-title-md
+{
+  color:white !important;
+  font-size: 2rem;
+  margin:1rem 0;
+  // width: 80%;
+}
+
+.bar-button-default-md,
+.bar-button-clear-md-default,
+.bar-button-md-default {
+  color:white;
+  font-size: 3rem !important;
+  margin:2rem auto;
+}
+
+// ITEMS FORMS
 
 .form-login .item-inner
 {
@@ -88,10 +171,20 @@ ion-select
   font-family: LatoReg;
 }
 
+// SELECT FORMS
+
+ion-select
+{
+  max-width: 95% !important;
+  width: 100% !important;
+}
+
 .select-ios .select-placeholder {
   color: #01002F;
   font-family:LatoReg;
 }
+
+// PLACEHOLDER FORMS
 
 .input-placeholder
 {
@@ -121,89 +214,17 @@ ion-select
 }
 
 
+// WELCOME PAGE
+
 .swiper-pagination-fraction,
 .swiper-pagination-custom,
 .swiper-container-horizontal > .swiper-pagination-bullets {
   left: 0;
-  // bottom: 17rem;
   bottom:170px;
   width: 100%;
 }
 
-ion-navbar.toolbar
-{
-  height:80px;
-}
-
-.toolbar-background-md {
-  border-color: #4889F6 !important;
-  background: #4889F6 !important;
-  color:white;
-}
-
-.header-ios .toolbar-background-ios,
-.footer-ios .toolbar-background-ios
-{
-  border-color: #4889F6 !important;
-  background: #4889F6 !important;
-  color:white !important;
-}
-
-.title-add-mascota .toolbar-title-ios
-{
-  margin-left:15px !important;
-}
-
-.item-add-pet-input .text-input-ios
-{
-  padding-left:15px;
-}
-
-.toolbar-title-ios
-{
-  text-align: left !important;
-  font-size: 20px !important;
-  font-family: RobotoReg !important;
-  color: white !important;
-  margin-left: 75px !important;
-}
-
-.toolbar-ios ion-title
-{
-  padding:0 !important;
-}
-
-.bar-button-menutoggle-ios
-{
-  margin: 0 0 0 19px;
-}
-
-.bar-button-default-ios,
-.bar-button-default.bar-button-ios-default,
-.bar-button-clear-ios-default
-{
-  color:white !important;
-}
-.toolbar-content-md
-{
-  display: flex !important;
-}
-
-.toolbar-title-md
-{
-  color:white !important;
-  font-size: 2rem;
-  margin:1rem 0;
-  // width: 80%;
-}
-
-.bar-button-default-md,
-.bar-button-clear-md-default,
-.bar-button-md-default {
-  color:white;
-  font-size: 3rem !important;
-  margin:2rem auto;
-}
+// NAVBAR
 
 // App Global Sass
 // --------------------------------------------------

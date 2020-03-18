@@ -22,6 +22,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { NgxDatatableModule } from '@swimlane/ngx-datatable';
 import { LoadingPage } from '../pages/loading/loading';
+import { AddPaseoPage } from '../pages/add-paseo/add-paseo';
 
 @NgModule({
   declarations: [
@@ -34,6 +35,7 @@ import { LoadingPage } from '../pages/loading/loading';
     RegisterPage,
     WelcomePage,
     AddFormPage,
+    AddPaseoPage,
     ListPetsPage,
     LoadingPage,
     WakypetLogoPage,
@@ -57,6 +59,7 @@ import { LoadingPage } from '../pages/loading/loading';
     RegisterPage,
     WelcomePage,
     AddFormPage,
+    AddPaseoPage,
     ListPetsPage,
     LoadingPage,
     WakypetLogoPage,

@@ -16,6 +16,7 @@ import { LoadingPage } from '../pages/loading/loading';
 import { WakypetLogoPage } from '../pages/wakypet-logo/wakypet-logo';
 import { AyudaPage } from '../pages/ayuda/ayuda';
 import { AyudaPagoPage } from '../pages/ayuda-pago/ayuda-pago';
+import { AddPaseoPage } from '../pages/add-paseo/add-paseo';
 
 @Component({
   templateUrl: 'app.html'
@@ -37,16 +38,18 @@ export class MyApp {
 
     // set our app's pages
     this.pages = [
-      { title: 'Home', component: HomePage},
+      { title: 'Wakypet', component: WakypetLogoPage},
+      { title: 'Welcome', component: HelloIonicPage},
+      { title: 'Loading', component: LoadingPage},
       { title: 'Login', component: LoginPage},
       { title: 'Register', component: RegisterPage},
       { title: 'Agregar Mascota', component: AddFormPage},
-      { title: 'Welcome', component: HelloIonicPage},
-      { title: 'Lista Mascotas', component: ListPetsPage},
-      { title: 'Loading', component: LoadingPage},
-      { title: 'Wakypet', component: WakypetLogoPage},
+      { title: 'Agregar Paseo', component: AddPaseoPage},
+      { title: 'Home', component: HomePage},
+      // { title: 'Lista Mascotas', component: ListPetsPage},
       { title: 'Ayuda', component: AyudaPage},
       { title: 'Ayuda Pago', component: AyudaPagoPage},
+
 
     ];
   }
