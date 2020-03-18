@@ -23,6 +23,12 @@
   src: url('../assets/fonts/Roboto/Roboto-Regular.ttf');
 }
 
+ion-select
+{
+  max-width: 95% !important;
+  width: 100% !important;
+}
+
 .form-login .item-inner
 {
   border:none !important;
@@ -54,6 +60,11 @@
   position: static;
   border: solid 1px grey;
   border-radius: 8px;
+}
+
+.item-add-pet-input .item-input ion-input, .item-input ion-textarea
+{
+  padding-left:15px;
 }
 
 .item-input ion-label
@@ -92,6 +103,16 @@ ion-navbar.toolbar
   border-color: #4889F6 !important;
   background: #4889F6 !important;
   color:white !important;
+}
+
+.title-add-mascota .toolbar-title-ios
+{
+  margin-left:15px !important;
+}
+
+.item-add-pet-input .text-input-ios
+{
+  padding-left:15px;
 }
 
 .toolbar-title-ios

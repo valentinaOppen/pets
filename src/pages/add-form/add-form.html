@@ -1,7 +1,7 @@
 
 <ion-header>
   <ion-navbar>
-    <ion-title>Agregar Mascota</ion-title>
+    <ion-title class="title-add-mascota">Agregar Mascota</ion-title>
     <button ion-button class="btn-back-close" (click)="navigateToOtherPage()"><ion-icon name="close"></ion-icon></button>
   </ion-navbar>
 </ion-header>
@@ -10,22 +10,22 @@
 <div class="container-add">
   <div class="title-add">Queremos conocer a tu mascota</div>
   <div class="div-form-add">
-      <form #form="ngForm" (ngSubmit)="navigateToOtherPage()" novalidate>
+      <form #form="ngForm" class="form-add-pet" (ngSubmit)="navigateToOtherPage()" novalidate>
           <ion-item>
-            <ion-label>Nombre</ion-label>
-            <ion-input type="text" required ngControl="name" ></ion-input>
+            <!-- <ion-label>Nombre</ion-label> -->
+            <ion-input class="item-add-pet-input" type="text" required ngControl="name" class="placeholder-black" placeholder="Nombre"></ion-input>
           </ion-item>
-          <ion-item>
-            <ion-label>Raza</ion-label>
-            <ion-select placeholder="">
+          <ion-item class="item-add-pet">
+            <!-- <ion-label>Raza</ion-label> -->
+            <ion-select placeholder="Raza">
               <ion-option>Bulldog</ion-option>
               <ion-option >Pug</ion-option>
               <ion-option >Beagle</ion-option>
             </ion-select>
           </ion-item>
-          <ion-item>
-            <ion-label position="floating">Fecha de Nacimiento</ion-label>
-            <ion-datetime displayFormat="MM/DD/YYYY" min="1994-03-14" max="2012-12-09"></ion-datetime>
+          <ion-item class="item-add-pet">
+            <!-- <ion-label position="floating"><img src="../../assets/imgs/img_calendar.svg" alt=""></ion-label> -->
+            <ion-datetime placeholder="Fecha de Nacimiento" displayFormat="MM/DD/YYYY" min="1994-03-14" max="2012-12-09"></ion-datetime>
           </ion-item>
           <ion-item>
             <div class="div-btns-foto">Sube una foto de tu mascota</div>
