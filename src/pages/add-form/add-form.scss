@@ -5,17 +5,8 @@
 
 .item-add-pet .input-wrapper
 {
-  border: solid 1px grey;
+  border: solid 1px #D9E8ED;
   border-radius: 6px;
-}
-
-::ng-deep .placeholder-black
-{
-  color:red !important;
-}
-
-::ng-deep ion-select {
-  color: #f00 !important; //placeholder color
 }
 
 .container-add
@@ -34,6 +25,7 @@
 {
   text-align: left;
   font-size: 18px;
+  font-family: LatoBold;
   margin: 25px auto 0px 14px;
 }
 
@@ -56,9 +48,10 @@
 
 .div-btns-foto
 {
+  font-family:LatoBold;
   font-size:18px;
   // margin-top:10px;
-  color:black;
+  color:#01002F;
 }
 
 .placeholder-black .text-input-ios
@@ -79,13 +72,14 @@
 .btn-galeria
 {
   float: left;
-  border: solid #999999 2px;
+  border: solid 1px #D9E8ED;
   padding: 22px 0;
   text-align: center;
   border-radius: 6px;
   margin: 12px 0;
-  color:#999999;
+  color:#01002F;
   width:48%;
+  font-family: LatoReg;
 }
 
 .icon-foto

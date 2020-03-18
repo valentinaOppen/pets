@@ -41,6 +41,11 @@ ion-select
   margin: 0rem 38px 0 0rem!important;
 }
 
+.form-add-pet .item-inner
+{
+  border:none !important;
+}
+
 .form-login-pass .item-inner
 {
   border:none !important;
@@ -64,7 +69,7 @@ ion-select
 
 .item-input ion-input, .item-input ion-textarea {
   position: static;
-  border: solid 1px grey;
+  border: solid 1px #D9E8ED;
   border-radius: 8px;
 }
 
@@ -76,12 +81,45 @@ ion-select
 .item-input ion-label
 {
   max-width: unset !important;
-  color: #575C71;
+  color: #01002F;
   position: absolute;
   bottom:40px;
   font-size:16px;
   font-family: LatoReg;
 }
+
+.select-ios .select-placeholder {
+  color: #01002F;
+  font-family:LatoReg;
+}
+
+.input-placeholder
+{
+  color:#01002F;
+  font-family:LatoReg;
+}
+
+.datetime-ios .datetime-placeholder {
+  color: #01002F;
+  font-family:LatoReg;
+}
+
+.text-input::-moz-placeholder {
+  color: #01002F;
+  font-family:LatoReg;
+}
+
+.text-input:-ms-input-placeholder {
+  color: #01002F;
+  font-family:LatoReg;
+}
+
+.text-input::-webkit-input-placeholder {
+  text-indent: 0;
+  color: #01002F;
+  font-family:LatoReg;
+}
+
 
 .swiper-pagination-fraction,
 .swiper-pagination-custom,
