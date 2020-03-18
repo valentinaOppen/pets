@@ -10,6 +10,7 @@ import { WelcomePage } from '../pages/welcome/welcome';
 import { AddFormPage } from '../pages/add-form/add-form';
 import { ListPetsPage } from '../pages/list-pets/list-pets';
 import { WakypetLogoPage } from '../pages/wakypet-logo/wakypet-logo';
+import { AyudaPage } from '../pages/ayuda/ayuda';
 
 import { HelloIonicPage } from '../pages/hello-ionic/hello-ionic';
 import { ItemDetailsPage } from '../pages/item-details/item-details';
@@ -34,7 +35,8 @@ import { LoadingPage } from '../pages/loading/loading';
     AddFormPage,
     ListPetsPage,
     LoadingPage,
-    WakypetLogoPage
+    WakypetLogoPage,
+    AyudaPage
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   imports: [
@@ -55,7 +57,8 @@ import { LoadingPage } from '../pages/loading/loading';
     AddFormPage,
     ListPetsPage,
     LoadingPage,
-    WakypetLogoPage
+    WakypetLogoPage,
+    AyudaPage
   ],
   providers: [
     StatusBar,

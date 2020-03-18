@@ -14,6 +14,7 @@ import { AddFormPage } from '../pages/add-form/add-form';
 import { ListPetsPage } from '../pages/list-pets/list-pets';
 import { LoadingPage } from '../pages/loading/loading';
 import { WakypetLogoPage } from '../pages/wakypet-logo/wakypet-logo';
+import { AyudaPage } from '../pages/ayuda/ayuda';
 
 @Component({
   templateUrl: 'app.html'
@@ -43,7 +44,7 @@ export class MyApp {
       { title: 'Lista Mascotas', component: ListPetsPage},
       { title: 'Loading', component: LoadingPage},
       { title: 'Wakypet', component: WakypetLogoPage},
-
+      { title: 'Ayuda', component: AyudaPage},
 
     ];
   }
