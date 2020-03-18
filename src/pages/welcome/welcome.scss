@@ -33,6 +33,7 @@
   font-size: 16px;
   color: #575C71;
   width: 80%;
+  max-width: 350px;
   margin: auto;
   margin-bottom:5rem;
   height: 93px;
@@ -51,9 +52,11 @@
 
 .btn-start
 {
-  width: 80%;
-  margin: 7rem auto 5rem auto;
-  font-size: 2rem;
-  border-radius: 10px;
-  height: 60px;
+  width: 275px;
+  max-width: 350px;
+  margin: 56px auto;
+  font-size: 18px;
+  border-radius: 8px;
+  padding: 10px auto 13px auto;
+  text-transform: capitalize;
 }
