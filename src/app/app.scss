@@ -29,6 +29,18 @@
   src: url('../assets/fonts/Roboto/Roboto-Regular.ttf');
 }
 
+// GENERAL
+
+*
+{
+  font-family:LatoReg;
+}
+
+.flex
+{
+  display:flex;
+}
+
 // NAVBAR
 
 .button-ios

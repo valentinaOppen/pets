@@ -33,7 +33,26 @@
           <div class="div-txt-img-pets" [ngStyle]="{'color': selected==2 ? '#575C71' : '#8EA9B2'}">Lulú</div>
         </div>
         <div class="div-img-pets">
-          <button class="btn-add-pet-add-paseo"  [ngStyle]="{'color': selected==0 ? '#575C71' : '#8EA9B2'}" (click)="changePetSelected(0)"><ion-icon class="icon-plus-add-petr" name="add-outline"></ion-icon></button>
+          <img src="../../assets/imgs/pet_selected.svg" alt="" class="img-pet-selected" *ngIf="selected==1">
+          <img src="../../assets/imgs/tobias.png" [ngStyle]="{'opacity': selected==1 ? 1 : .5}"
+          class="img-pet" (click)="changePetSelected(1)">
+          <div class="div-txt-img-pets" [ngStyle]="{'color': selected==1 ? '#575C71' : '#8EA9B2'}">Tobías</div>
+        </div>
+        <div class="div-img-pets">
+          <img src="../../assets/imgs/pet_selected.svg" alt="" class="img-pet-selected" *ngIf="selected==1">
+          <img src="../../assets/imgs/tobias.png" [ngStyle]="{'opacity': selected==1 ? 1 : .5}"
+          class="img-pet" (click)="changePetSelected(1)">
+          <div class="div-txt-img-pets" [ngStyle]="{'color': selected==1 ? '#575C71' : '#8EA9B2'}">Tobías</div>
+        </div>
+        <div class="div-img-pets">
+          <img src="../../assets/imgs/pet_selected.svg" alt="" class="img-pet-selected" *ngIf="selected==1">
+          <img src="../../assets/imgs/tobias.png" [ngStyle]="{'opacity': selected==1 ? 1 : .5}"
+          class="img-pet" (click)="changePetSelected(1)">
+          <div class="div-txt-img-pets" [ngStyle]="{'color': selected==1 ? '#575C71' : '#8EA9B2'}">Tobías</div>
+        </div>
+        <div class="div-img-pets">
+          <img src="../../assets/imgs/icon_plus.svg" class="img-pet" (click)="changePetSelected(0)">
+          <!-- <button class="btn-add-pet-add-paseo"  [ngStyle]="{'color': selected==0 ? '#575C71' : '#8EA9B2'}" (click)="changePetSelected(0)"><ion-icon class="icon-plus-add-petr" name="add-outline"></ion-icon></button> -->
           <div class="div-txt-img-pets">Agregar</div>
         </div>
       </div>
@@ -67,7 +86,60 @@
           <img src="../../assets/imgs/pet_selected.svg" alt="" class="img-day-check" *ngIf="day.Selec==1">
           <div class="div-border-select-day" *ngIf="day.Selec==0"></div>
         </button>
-
+      </div>
+      <div class="div-repeat-week flex">
+        <button class="btn-repeat-week" (click)="selectRepeatWeek()">
+          <img src="../../assets/imgs/pet_selected.svg" *ngIf="repeatWeek" alt="" class="img-repeat-week">
+          <div class="div-border-select-day" *ngIf="!repeatWeek"></div>
+        </button>
+        <div class="div-text-repeat-week flex">
+          <div class="text-repeat-week">Repetir cada semana</div>
+          <div class="div-img-quest-repeat-week">
+            <img src="../../assets/imgs/icon_question.svg" alt="" class="img-quest-repeat-week">
+          </div>
+        </div>
+      </div>
+      <div class="div-prices-day">
+        <div class="div-price-day">
+          <div class="text-price-day">Precio estandar por día</div>
+          <div class="price-day">$6.500</div>
+        </div>
+        <div class="div-price-day">
+          <div class="text-price-day">Precio por día con descuento</div>
+          <div class="price-day">$6.200</div>
+        </div>
+      </div>
+      <div class="btns-inicio-paseo">
+        <button class="btn-inicio-paseo">Fecha de Inicio<ion-icon name="arrow-forward" class="btn-inicio-paseo-icon"></ion-icon></button>
+        <button class="btn-inicio-paseo">Hora<ion-icon name="arrow-forward" class="btn-inicio-paseo-icon"></ion-icon></button>
+        <button class="btn-inicio-paseo">Ubicacion<ion-icon name="arrow-forward" class="btn-inicio-paseo-icon"></ion-icon></button>
+      </div>
+      <div class="div-comentario">
+        <textarea class="text-area-comentario" placeholder="Déjanos tu dirección completa y una referencia"
+        name="" id=""></textarea>
+      </div>
+      <div class="div-text-type-pay flex">
+        <div class="text-type-pay">Tipo de Pago</div>
+        <div class="div-img-quest-repeat-week">
+          <img src="../../assets/imgs/icon_question.svg" alt="" class="img-quest-type-pay">
+        </div>
+      </div>
+      <div class="div-btn-days">
+        <button class="btn-opc-day" (click)="changeTypePay(1)"
+        [ngStyle]="{'border': typePay==1 ? 'solid #8EA9B2 1px' : 'solid #D2DFE3 1px'}">
+            <div class="div-border-select" *ngIf="typePay!=1"></div>
+            <img src="../../assets/imgs/pet_selected.svg" alt="" class="img-day-opc-check" *ngIf="typePay==1">
+            <div class="text-opc">Pago Electrónico</div>
+        </button>
+        <button class="btn-opc-day" (click)="changeTypePay(2)"
+        [ngStyle]="{'border': typePay==2 ? 'solid #8EA9B2 1px' : 'solid #D2DFE3 1px'}">
+          <div class="div-border-select" *ngIf="typePay!=2"></div>
+          <img src="../../assets/imgs/pet_selected.svg" alt="" class="img-day-opc-check" *ngIf="typePay==2">
+          <div class="text-opc">En efectivo</div>
+        </button>
+      </div>
+      <div class="div-btn-programar-paseo">
+        <button class="btn-programar">Programar</button>
       </div>
     </form>
   </div>

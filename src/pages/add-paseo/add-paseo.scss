@@ -13,6 +13,12 @@
   z-index:10;
 }
 
+.div-text-msg-top-paseo
+{
+  max-width:500px;
+  margin:auto;
+}
+
 .btn-entendido-add-paseo
 {
   background:#B495FA;
@@ -47,7 +53,8 @@
 .div-content-add-paseo
 {
   padding:0px 15px 28px 14px;
-  max-width: 375px;
+  // max-width: 375px;
+  width:fit-content;
   margin: auto;
 }
 
@@ -66,11 +73,19 @@
   margin: 5px 0 15px 0;
 }
 
+.form-add-paseo
+{
+  width:fit-content;
+  margin:auto;
+}
+
 .div-grid-img-pets
 {
   display: grid;
   grid-template-columns: 60px 60px 60px 60px 60px 60px;
   grid-column-gap: 19px;
+  width:fit-content;
+  margin:auto;
 }
 
 .div-img-pets
@@ -197,4 +212,117 @@
   grid-column-gap: 6px;
   font-size:12px;
   font-family: LatoBold;
+}
+
+.div-text-repeat-week
+{
+  margin: auto 5px auto 8px;
+}
+
+.text-repeat-week
+{
+  margin-right:4px;
+}
+
+.btn-repeat-week
+{
+  background: transparent;
+}
+
+.img-quest-repeat-week
+{
+  margin-top:1px;
+}
+
+.div-prices-day
+{
+
+  background-color: #FFF7E6;
+  color:#E3A329;
+  font-size:12px;
+  font-family:LatoReg;
+  padding:7px 15px 9px 11px;
+}
+
+.div-price-day
+{
+  display:flex;
+  justify-content: space-between;
+}
+
+.btns-inicio-paseo
+{
+  margin:28px 15px 0 0px;
+}
+
+.btn-inicio-paseo
+{
+  display: flex;
+  justify-content: space-between;
+  color:#01002F;
+  border:solid 1px #D9E8ED;
+  border-radius: 6px;
+  margin-bottom:10px;
+  width:100%;
+  height: 45px;
+  font-size:16px;
+  font-family:LatoReg;
+  padding-left:15px;
+  background:transparent;
+}
+
+.btn-inicio-paseo-icon
+{
+  margin-right:10px;
+  color:#8EA9B2;
+}
+
+.div-comentario
+{
+  margin: 0 15px 24px 0;
+}
+
+.text-area-comentario
+{
+  margin:10px 15px 0 0px;
+  width:100%;
+  height: 76px;
+  border:solid 1px #D9E8ED;
+  border-radius: 6px;
+  padding:11px;
+}
+
+.div-text-type-pay
+{
+  margin: auto 5px auto 8px;
+}
+
+.text-type-pay
+{
+  font-size:17px;
+  margin-right:4px;
+}
+
+.img-quest-type-pay
+{
+  margin-top:4px;
+}
+
+.div-btn-programar-paseo
+{
+  text-align: center;
+}
+
+.btn-programar
+{
+  width:275px !important;
+  height: 45px;
+  width: fit-content;
+  background-color: #0099F2;
+  font-size: 18px;
+  font-family: LatoBold;
+  border:none;
+  border-radius: 8px;
+  margin:24px auto 28px auto;
+  color:white;
 }

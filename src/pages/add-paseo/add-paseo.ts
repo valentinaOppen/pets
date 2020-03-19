@@ -19,8 +19,9 @@ export class AddPaseoPage {
   message = true;
   selected = 1;
   dayOpcSelected = 1;
-  // diasSeleccionados = [1,0,0,0,0,0,0];
   daysWeek;
+  repeatWeek = true;
+  typePay = 2;
 
   constructor(public navCtrl: NavController, public navParams: NavParams)
   {
@@ -62,7 +63,6 @@ export class AddPaseoPage {
 
   selectDay(id)
   {
-    debugger;
     var day = this.daysWeek.find(x=>x.Id==id);
     var index = this.daysWeek.indexOf(day);
     if(this.daysWeek[index].Selec == 1)
@@ -73,5 +73,22 @@ export class AddPaseoPage {
     {
       this.daysWeek[index].Selec = 1;
     }
+  }
+
+  selectRepeatWeek()
+  {
+    if(this.repeatWeek)
+    {
+      this.repeatWeek = false;
+    }
+    else
+    {
+      this.repeatWeek = true;
+    }
+  }
+
+  changeTypePay(number)
+  {
+    this.typePay = number;
   }
 }
