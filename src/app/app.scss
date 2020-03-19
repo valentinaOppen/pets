@@ -129,6 +129,11 @@ ion-navbar.toolbar
   border:none !important;
 }
 
+.form-add-paseo .item-inner
+{
+  border:none !important;
+}
+
 .form-login-pass .item-inner
 {
   border:none !important;
@@ -140,12 +145,22 @@ ion-navbar.toolbar
   padding-top:0px;
 }
 
+.item-ios
+{
+  padding-left:0 !important;
+}
+
 .form.login-pass .item-ios
 {
   padding-left:0 !important;
 }
 
 .form.login .item-ios
+{
+  padding-left:0 !important;
+}
+
+.item-md
 {
   padding-left:0 !important;
 }
@@ -180,6 +195,11 @@ ion-select
 }
 
 .select-ios .select-placeholder {
+  color: #01002F;
+  font-family:LatoReg;
+}
+
+.select .select-placeholder {
   color: #01002F;
   font-family:LatoReg;
 }

@@ -8,6 +8,8 @@
   text-align: center;
   position:absolute;
   top:0;
+  right:0;
+  width:100%;
   z-index:10;
 }
 
@@ -24,10 +26,175 @@
   border:solid 1px white;
 }
 
+.btn-back-paseo
+{
+  background: transparent;
+  border: none;
+  box-shadow: none;
+}
+
 .btn-back-close-paseo
 {
   position: absolute;
   top: 0;
   right: 0;
   font-size:20px;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+.div-content-add-paseo
+{
+  padding:0px 15px 28px 14px;
+  max-width: 375px;
+  margin: auto;
+}
+
+.div-title-add-paseo
+{
+  font-size:18px;
+  font-family:LatoBold;
+  color:#01002F;
+  margin-top:25px;
+}
+
+.div-subtitle-add-paseo
+{
+  color:#8EA9B2;
+  font-size: 14px;
+  margin: 5px 0 15px 0;
+}
+
+.div-grid-img-pets
+{
+  display: grid;
+  grid-template-columns: 60px 60px 60px 60px 60px 60px;
+  grid-column-gap: 19px;
+}
+
+.div-img-pets
+{
+  position: relative;
+  width: 60px;
+  text-align: center;
+}
+
+.img-pet-selected
+{
+  position:absolute;
+  top:0;
+  right:0;
+}
+
+.img-pet
+{
+  width: 60px;
+  height: 60px;
+}
+
+.btn-add-pet-add-paseo
+{
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  border: 1px dashed #8EA9B2;
+  background: transparent;
+  margin-bottom:2px;
+  font-size: 30px;
+}
+
+.icon-plus-add-petr
+{
+  color: #8EA9B2;
+}
+
+.div-txt-img-pets
+{
+  font-family: LatoReg;
+  font-size:12px;
+}
+
+.item-add-pet .item .item-block .item-ios .item-select
+{
+  padding-left:0 !important;
+  width:345px;
+}
+
+.div-btn-days
+{
+  margin-top:14px;
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 13px;
+}
+
+.btn-opc-day
+{
+  background: transparent;
+  height: 45px;
+  color:#01002F;
+  font-size:14px;
+  font-family: LatoBold;
+  border-radius: 6px;
+  display:flex;
+}
+
+.btn-day-week
+{
+  background: transparent;
+  height: 52px;
+  color:#01002F;
+  font-size:14px;
+  font-family: LatoBold;
+  border-radius: 6px;
+  white-space: nowrap;
+  margin-bottom:7px;
+  padding-bottom:9px;
+}
+
+.img-day-opc-check
+{
+  margin:0 16px 0 11px;
+  width:16px;
+  height: 16px;
+}
+
+.text-opc
+{
+  margin:auto 0;
+  font-size:14px;
+}
+
+.div-border-select
+{
+  margin:0 16px 0 11px;
+  width:16px;
+  height: 16px;
+  border:solid 1px #D2DFE3;
+  border-radius: 100%;
+}
+
+.div-day
+{
+  margin:5px auto 7px auto;
+}
+
+.div-border-select-day
+{
+  margin:auto;
+  width:16px;
+  height: 16px;
+  border:solid 1px #D2DFE3;
+  border-radius: 100%;
+}
+
+.div-days-week
+{
+  margin-top:14px;
+  display:grid;
+  grid-template-columns: 44px 44px 44px 44px 44px 44px 44px;
+  grid-column-gap: 6px;
+  font-size:12px;
+  font-family: LatoBold;
 }

@@ -14,9 +14,61 @@
 </ion-header>
 
 <ion-content>
+  <div class="div-content-add-paseo">
+    <div class="div-title-add-paseo">¿Para quién será el paseo?</div>
+    <div class="div-subtitle-add-paseo">
+      Puedes agregar máximo hasta 6 mascotas
+    </div>
+    <form #form="ngForm" class="form-add-paseo" novalidate>
+      <div class="div-grid-img-pets">
+        <div class="div-img-pets">
+          <img src="../../assets/imgs/pet_selected.svg" alt="" class="img-pet-selected" *ngIf="selected==1">
+          <img src="../../assets/imgs/tobias.png" [ngStyle]="{'opacity': selected==1 ? 1 : .5}"
+          class="img-pet" (click)="changePetSelected(1)">
+          <div class="div-txt-img-pets" [ngStyle]="{'color': selected==1 ? '#575C71' : '#8EA9B2'}">Tobías</div>
+        </div>
+        <div class="div-img-pets">
+          <img src="../../assets/imgs/pet_selected.svg" alt="" class="img-pet-selected" *ngIf="selected==2">
+          <img src="../../assets/imgs/lulu.png" [ngStyle]="{'opacity': selected==1 ? 1 : .5}"  class="img-pet" (click)="changePetSelected(2)">
+          <div class="div-txt-img-pets" [ngStyle]="{'color': selected==2 ? '#575C71' : '#8EA9B2'}">Lulú</div>
+        </div>
+        <div class="div-img-pets">
+          <button class="btn-add-pet-add-paseo"  [ngStyle]="{'color': selected==0 ? '#575C71' : '#8EA9B2'}" (click)="changePetSelected(0)"><ion-icon class="icon-plus-add-petr" name="add-outline"></ion-icon></button>
+          <div class="div-txt-img-pets">Agregar</div>
+        </div>
+      </div>
+      <ion-item class="item-add-pet">
+        <ion-select placeholder="Escoge un tipo de paseo">
+          <ion-option>Paseo Uno</ion-option>
+          <ion-option>Paseo Dos</ion-option>
+          <ion-option>Paseo Tres</ion-option>
+        </ion-select>
+      </ion-item>
+      <div class="div-title-add-paseo">¿Qué días quieres pasear a tu mascota?</div>
+      <div class="div-btn-days">
+        <button class="btn-opc-day" (click)="changeOpcDaySelected(1)"
+        [ngStyle]="{'border': dayOpcSelected==1 ? 'solid #8EA9B2 1px' : 'solid #D2DFE3 1px'}">
+            <div class="div-border-select" *ngIf="dayOpcSelected!=1"></div>
+            <img src="../../assets/imgs/pet_selected.svg" alt="" class="img-day-opc-check" *ngIf="dayOpcSelected==1">
+            <div class="text-opc">1 o más días</div>
+        </button>
+        <button class="btn-opc-day" (click)="changeOpcDaySelected(2)"
+        [ngStyle]="{'border': dayOpcSelected==2 ? 'solid #8EA9B2 1px' : 'solid #D2DFE3 1px'}">
+          <div class="div-border-select" *ngIf="dayOpcSelected!=2"></div>
+          <img src="../../assets/imgs/pet_selected.svg" alt="" class="img-day-opc-check" *ngIf="dayOpcSelected==2">
+          <div class="text-opc">Solo por hoy</div>
+        </button>
+      </div>
+      <div class="div-days-week">
+        <button class="btn-day-week" *ngFor="let day of daysWeek" (click)="selectDay(day.Id)"
+          [ngStyle]="{'border': day.Selec==0 ? 'solid #8EA9B2 1px' : 'solid #00CEC1 1px',
+                      'color':day.Selec[0]==0 ? '#575C71' : '#05052C'}">
+          <div class="div-day">{{day.Name}}</div>
+          <img src="../../assets/imgs/pet_selected.svg" alt="" class="img-day-check" *ngIf="day.Selec==1">
+          <div class="div-border-select-day" *ngIf="day.Selec==0"></div>
+        </button>
 
-<div class="div-content-add-paseo">
-
-</div>
-
+      </div>
+    </form>
+  </div>
 </ion-content>
