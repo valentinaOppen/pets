@@ -17,6 +17,7 @@ import { WakypetLogoPage } from '../pages/wakypet-logo/wakypet-logo';
 import { AyudaPage } from '../pages/ayuda/ayuda';
 import { AyudaPagoPage } from '../pages/ayuda-pago/ayuda-pago';
 import { AddPaseoPage } from '../pages/add-paseo/add-paseo';
+import { WalkTypePage } from '../pages/walk-type/walk-type';
 
 @Component({
   templateUrl: 'app.html'
@@ -43,14 +44,12 @@ export class MyApp {
       { title: 'Loading', component: LoadingPage},
       { title: 'Login', component: LoginPage},
       { title: 'Register', component: RegisterPage},
+      { title: 'Home', component: HomePage},
       { title: 'Agregar Mascota', component: AddFormPage},
       { title: 'Agregar Paseo', component: AddPaseoPage},
-      { title: 'Home', component: HomePage},
-      // { title: 'Lista Mascotas', component: ListPetsPage},
+      { title: 'Tipos Paseo', component: WalkTypePage},
       { title: 'Ayuda', component: AyudaPage},
       { title: 'Ayuda Pago', component: AyudaPagoPage},
-
-
     ];
   }
 

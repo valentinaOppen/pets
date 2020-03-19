@@ -1,0 +1,54 @@
+.content-walk-types
+{
+  width: fit-content;
+  margin: 25px auto 0 auto;
+  text-align: left;
+}
+
+.title-walk-type
+{
+  font-size:18px;
+  color:#01002F;
+  font-family:LatoBold;
+}
+
+.subtitle-walk-type
+{
+  color:#8EA9B2;
+  font-size: 14px;
+  margin-top:4px;
+}
+
+.div-opc-walkes
+{
+  width:345px;
+  margin:13px auto 30px auto;
+  max-width: calc(100vw - 20px);
+}
+
+.opc-walk
+{
+  border:solid 1px #D9E8ED;
+  border-radius:6px;
+  display: flex;
+  justify-content: space-between;
+  height: 45px;
+  margin-bottom:8px;
+}
+
+.text-walk
+{
+  font-size:16px;
+  color:#05052C;
+  margin:auto 17px;
+}
+
+.price-walk
+{
+  color:#00CEC1;
+  font-size:16px;
+  font-family:LatoBold;
+  margin:auto 17px;
+}
+
+
