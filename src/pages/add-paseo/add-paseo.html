@@ -69,7 +69,7 @@
           <div class="div-border-select-day" *ngIf="day.Selec==0"></div>
         </button>
       </div>
-      <div class="div-repeat-week flex">
+      <div class="div-repeat-week flex" *ngIf="dayOpcSelected==1">
         <button class="btn-repeat-week" (click)="selectRepeatWeek()">
           <img src="../../assets/imgs/pet_selected.svg" *ngIf="repeatWeek" alt="" class="img-repeat-week">
           <div class="div-border-select-day" *ngIf="!repeatWeek"></div>
@@ -81,7 +81,7 @@
           </div>
         </div>
       </div>
-      <div class="div-prices-day">
+      <div class="div-prices-day" *ngIf="dayOpcSelected==1">
         <div class="div-price-day">
           <div class="text-price-day">Precio estandar por día</div>
           <div class="price-day">$6.500</div>
