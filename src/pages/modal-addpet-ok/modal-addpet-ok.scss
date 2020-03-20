@@ -1,0 +1,49 @@
+.container-modal
+{
+  width: 100vw;
+  height: 100vh;
+  opacity: .94;
+}
+
+.btn-back-close-modal
+{
+  background-color: transparent !important;
+  color: #05052C;
+  font-size: 20px;
+  box-shadow: none;
+  position:absolute;
+  top:32px;
+  right:26px;
+}
+
+.div-img-modal-add-pet
+{
+  margin:155px auto 19px auto;
+  width:138px;
+  height: 155px;
+}
+
+.div-text-modal-add-pet
+{
+  font-size:18px;
+  color:#05052C;
+  width: 180px;
+  margin:auto;
+}
+
+.div-btn-modal-add-pet-listo
+{
+  text-align: center;
+}
+
+.btn-modal-add-pet-listo
+{
+  margin:45px auto 100px auto;
+  width:275px;
+  height: 45px;
+  background-color:#0099F2;
+  color:white;
+  border:none;
+  border-radius: 8px;
+  font-size:18px;
+}

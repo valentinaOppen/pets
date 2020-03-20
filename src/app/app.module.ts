@@ -14,6 +14,7 @@ import { AyudaPage } from '../pages/ayuda/ayuda';
 import { AyudaPagoPage } from '../pages/ayuda-pago/ayuda-pago';
 import { WalkTypePage } from '../pages/walk-type/walk-type';
 
+
 import { HelloIonicPage } from '../pages/hello-ionic/hello-ionic';
 import { ItemDetailsPage } from '../pages/item-details/item-details';
 import { ListPage } from '../pages/list/list';
@@ -43,6 +44,7 @@ import { AddPaseoPage } from '../pages/add-paseo/add-paseo';
     AyudaPage,
     AyudaPagoPage,
     WalkTypePage
+
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   imports: [
