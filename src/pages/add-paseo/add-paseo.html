@@ -60,7 +60,7 @@
           <div class="text-opc">Solo por hoy</div>
         </button>
       </div>
-      <div class="div-days-week">
+      <div class="div-days-week" *ngIf="dayOpcSelected==1">
         <button class="btn-day-week" *ngFor="let day of daysWeek" (click)="selectDay(day.Id)"
           [ngStyle]="{'border': day.Selec==0 ? 'solid #8EA9B2 1px' : 'solid #00CEC1 1px',
                       'color':day.Selec[0]==0 ? '#575C71' : '#05052C'}">
