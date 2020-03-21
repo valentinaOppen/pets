@@ -2,7 +2,7 @@
 <ion-header>
   <ion-navbar>
     <ion-title class="title-add-mascota">Agregar Mascota</ion-title>
-    <button ion-button class="btn-back-close" (click)="navigateToOtherPage()"><ion-icon name="close"></ion-icon></button>
+    <button ion-button class="btn-back-close" (click)="navigateToOtherPage('close')"><ion-icon name="close"></ion-icon></button>
   </ion-navbar>
 </ion-header>
 
@@ -10,7 +10,7 @@
 <div class="container-add">
   <div class="title-add">Queremos conocer a tu mascota</div>
   <div class="div-form-add">
-      <form #form="ngForm" class="form-add-pet" (ngSubmit)="navigateToOtherPage()" novalidate>
+      <form #form="ngForm" class="form-add-pet" (ngSubmit)="navigateToOtherPage('ok')" novalidate>
           <ion-item>
             <!-- <ion-label>Nombre</ion-label> -->
             <ion-input class="item-add-pet-input" type="text" required ngControl="name" class="placeholder-black" placeholder="Nombre"></ion-input>
@@ -34,7 +34,7 @@
           </ion-item>
           <button ion-button class="btn-send-form" type="submit" block>Guardar</button>
         </form>
-        <button ion-button class="btn-send-form" type="button" (click)="navigateToOtherPageError()" block>Modal Error</button>
+        <button ion-button class="btn-send-form" type="button" (click)="navigateToOtherPage('error')" block>Modal Error</button>
   </div>
 </div>
 </ion-content>

@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { AddPaseoPage } from '../add-paseo/add-paseo';
 
 /**
  * Generated class for the HomePage page.
@@ -8,7 +9,7 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
  * Ionic pages and navigation.
  */
 
-@IonicPage()
+// @IonicPage()
 @Component({
   selector: 'page-home',
   templateUrl: 'home.html',
@@ -20,6 +21,11 @@ export class HomePage {
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad HomePage');
+  }
+
+  navigateToOtherPage(page)
+  {
+    this.navCtrl.setRoot(AddPaseoPage);
   }
 
 }

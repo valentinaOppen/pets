@@ -13,8 +13,8 @@ import { WakypetLogoPage } from '../pages/wakypet-logo/wakypet-logo';
 import { AyudaPage } from '../pages/ayuda/ayuda';
 import { AyudaPagoPage } from '../pages/ayuda-pago/ayuda-pago';
 import { WalkTypePage } from '../pages/walk-type/walk-type';
-
-
+import { LoadingPage } from '../pages/loading/loading';
+import { AddPaseoPage } from '../pages/add-paseo/add-paseo';
 import { HelloIonicPage } from '../pages/hello-ionic/hello-ionic';
 import { ItemDetailsPage } from '../pages/item-details/item-details';
 import { ListPage } from '../pages/list/list';
@@ -23,8 +23,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { NgxDatatableModule } from '@swimlane/ngx-datatable';
-import { LoadingPage } from '../pages/loading/loading';
-import { AddPaseoPage } from '../pages/add-paseo/add-paseo';
+
 
 @NgModule({
   declarations: [

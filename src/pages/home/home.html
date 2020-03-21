@@ -19,7 +19,7 @@
     <div class="txt-home">¡Hola! ¿Que quieres hacer hoy?</div>
   </div>
   <div class="div-btns-home">
-    <div class="div-btn-home div-btn-paseo">
+    <div class="div-btn-home div-btn-paseo" (click)="navigateToOtherPage('AddPaseoPage')">
       <div class="title-btn">Programar un paseo</div>
       <div class="text-btn">Para hoy, o para cualquier día <br> de la semana.</div>
       <div class="btn-home-arrow-fwd">
@@ -27,7 +27,7 @@
       </div>
       <!-- <div class="div-img-btn"><img src="../../assets/imgs/banner1.png" alt="" class="img-btn"></div> -->
     </div>
-    <div class="div-btn-home div-btn-planes">
+    <div class="div-btn-home div-btn-planes" (click)="navigateToOtherPage('AddPaseoPage')">
         <div class="title-btn">Planes semanales</div>
         <div class="text-btn">Conoce los planes con <br> precio especial y prográmalo.</div>
         <div class="btn-home-arrow-fwd">

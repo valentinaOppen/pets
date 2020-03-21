@@ -3,7 +3,6 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { ModalController } from 'ionic-angular';
 import { HomePage } from '../home/home';
 
-@IonicPage()
 @Component({
   selector: 'page-add-form',
   templateUrl: 'add-form.html',
@@ -17,11 +16,24 @@ export class AddFormPage {
     console.log('ionViewDidLoad AddFormPage');
   }
 
-  async navigateToOtherPage()
+  async navigateToOtherPage(page)
   {
-    this.navCtrl.setRoot(HomePage);
-    const modal = await this.modalController.create('ModalAddpetOkPage');
-    modal.present();
+    switch (page) {
+      case 'close':
+        this.navCtrl.setRoot(HomePage);
+        break;
+      case 'ok':
+        const modalok = await this.modalController.create('ModalAddpetOkPage');
+        modalok.present();
+        break;
+      case 'error':
+        const modalerror = await this.modalController.create('ModalAddpetErrorPage');
+        modalerror.present();
+        break;
+    }
+    // this.navCtrl.setRoot(HomePage);
+    // const modal = await this.modalController.create('ModalAddpetOkPage');
+    // modal.present();
   }
 
   async navigateToOtherPageError()

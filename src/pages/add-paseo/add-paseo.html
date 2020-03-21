@@ -5,10 +5,10 @@
       obtendrás en el valor de cada paseo.
     </div>
     <button ion-button class="btn-back-close-paseo" (click)="closeMessage()"><ion-icon name="close"></ion-icon></button>
-    <button class="btn-entendido-add-paseo">Entendido</button>
+    <button class="btn-entendido-add-paseo" (click)="closeMessage()">Entendido</button>
   </div>
   <ion-navbar>
-    <button ion-button class="btn-back-paseo" (click)="navigateToOtherPage()"><ion-icon name="arrow-back"></ion-icon></button>
+    <button ion-button class="btn-back-paseo" (click)="navigateToOtherPage('HomePage')"><ion-icon name="arrow-back"></ion-icon></button>
     <ion-title class="title-add-paseo">Programar Paseo</ion-title>
   </ion-navbar>
 </ion-header>
@@ -32,7 +32,7 @@
           <img src="../../assets/imgs/lulu.png" [ngStyle]="{'opacity': selected==1 ? 1 : .5}"  class="img-pet" (click)="changePetSelected(2)">
           <div class="div-txt-img-pets" [ngStyle]="{'color': selected==2 ? '#575C71' : '#8EA9B2'}">Lulú</div>
         </div>
-        <div class="div-img-pets">
+        <div class="div-img-pets" (click)="navigateToOtherPage('AddFormPage')">
           <img src="../../assets/imgs/icon_plus.svg" class="img-pet" (click)="changePetSelected(0)">
           <!-- <button class="btn-add-pet-add-paseo"  [ngStyle]="{'color': selected==0 ? '#575C71' : '#8EA9B2'}" (click)="changePetSelected(0)"><ion-icon class="icon-plus-add-petr" name="add-outline"></ion-icon></button> -->
           <div class="div-txt-img-pets">Agregar</div>
