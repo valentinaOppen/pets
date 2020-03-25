@@ -45,8 +45,19 @@
 
 .button-ios
 {
-  background:transparent !important;
+  // background:transparent !important;
+  background-color: #0099F2 !important;
 }
+
+.btn-send-form-login .button-ios
+{
+  background-color: #0099F2 !important;
+}
+
+// .btn-send-form-login .disable-hover button .button-ios .button-default .button-default-ios .button-block .button-block-ios
+// {
+//   background-color: #0099F2 !important;
+// }
 
 ion-navbar.toolbar
 {
@@ -54,16 +65,16 @@ ion-navbar.toolbar
 }
 
 .toolbar-background-md {
-  border-color: #4889F6 !important;
-  background: #4889F6 !important;
+  border-color: #0099F2 !important;
+  background: #0099F2 !important;
   color:white;
 }
 
 .header-ios .toolbar-background-ios,
 .footer-ios .toolbar-background-ios
 {
-  border-color: #4889F6 !important;
-  background: #4889F6 !important;
+  border-color: #0099F2 !important;
+  background: #0099F2 !important;
   color:white !important;
 }
 
@@ -130,6 +141,11 @@ ion-navbar.toolbar
 
 // ITEMS FORMS
 
+.item-ios.item-block .item-inner
+{
+  padding-right:0 !important;
+}
+
 .form-login .item-inner
 {
   border:none !important;
@@ -191,7 +207,7 @@ ion-navbar.toolbar
 .item-input ion-label
 {
   max-width: unset !important;
-  color: #01002F;
+  color: #575C71;
   position: absolute;
   bottom:40px;
   font-size:16px;
@@ -254,6 +270,13 @@ ion-select
   left: 0;
   bottom:170px;
   width: 100%;
+}
+
+// REGISTER
+
+.checkbox-ios .checkbox-icon
+{
+  border-radius: 4px !important;
 }
 
 // NAVBAR

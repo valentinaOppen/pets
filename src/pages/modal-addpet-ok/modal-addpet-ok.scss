@@ -9,11 +9,16 @@
 {
   background-color: transparent !important;
   color: #05052C;
-  font-size: 20px;
+  font-size: 30px;
   box-shadow: none;
   position:absolute;
-  top:32px;
+  top:18px;
   right:26px;
+}
+
+.btn-back-close-modal ion-icon
+{
+  font-weight: bolder !important;
 }
 
 .div-img-modal-add-pet
@@ -27,7 +32,7 @@
 {
   font-size:18px;
   color:#05052C;
-  width: 180px;
+  width: 202px;
   margin:auto;
 }
 
@@ -46,4 +51,5 @@
   border:none;
   border-radius: 8px;
   font-size:18px;
+  font-family:LatoBold;
 }

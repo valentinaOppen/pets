@@ -18,7 +18,7 @@
 
 .form-add-pet
 {
-  margin: auto 15px auto 0px;
+  margin: auto 15px auto 15px;
 }
 
 .title-add
@@ -44,6 +44,21 @@
 {
   font-size:30px;
   font-weight: bolder;
+}
+
+.div-fecha
+{
+  position:relative;
+  width:80%;
+}
+
+.icon-calendar
+{
+  width: auto;
+  height: 25px;
+  position: absolute;
+  top: 34px;
+  right: 12px;
 }
 
 .div-btns-foto
@@ -91,8 +106,8 @@
 .btn-send-form
 {
   margin: 150px auto 34px auto !important;
-  height: 50px !important;
-  font-size: 2rem !important;
+  height: 45px !important;
+  font-size: 18px !important;
   // width: 80%;
   width:275px;
   border-radius: 10px;
