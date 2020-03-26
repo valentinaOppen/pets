@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { HomePage } from '../home/home';
 import { AddFormPage } from '../add-form/add-form';
+import { WalkTypePage } from '../walk-type/walk-type';
 
 /**
  * Generated class for the AddPaseoPage page.
@@ -17,7 +18,7 @@ import { AddFormPage } from '../add-form/add-form';
 export class AddPaseoPage {
 
   message = true;
-  selected = 1;
+  selected:any = [];
   dayOpcSelected = 1;
   daysWeek;
   repeatWeek = true;
@@ -52,7 +53,14 @@ export class AddPaseoPage {
     {
       this.navCtrl.setRoot(HomePage);
     }
-    else
+
+    if(page == 'WalkType')
+    {
+      this.navCtrl.setRoot(WalkTypePage);
+
+    }
+
+    if(page == 'AddFormPage')    
     {
       this.navCtrl.setRoot(AddFormPage);
     }

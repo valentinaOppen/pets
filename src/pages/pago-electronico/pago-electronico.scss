@@ -1,0 +1,152 @@
+.container
+{
+    background:#F2F2F2;
+    border: solid 1px #F2F2F2;
+    height: 100vh;
+}
+
+.content-pago-electronico
+{
+    margin:10px 12px auto 13px;
+    
+}
+
+.div-text-desc-pago-electronico
+{
+    font-size:14px;
+    color:#05052C;
+    margin:10px 0 10px 0;
+    font-family:LatoReg;
+}
+
+.div-white
+{
+    width: 100%;
+    background:white;
+    border-radius: 8px;    
+    text-align: center;
+    border: solid 1px white;
+    margin-bottom:12px;
+}
+
+.div-title-saldo-actual
+{
+    display:flex;
+    margin:23.5px 10.5px auto 15.5px;   
+}
+
+.hr-saldo
+{
+    border:solid 1px #D9D9D9;
+    margin:auto; 
+    width:100px; 
+}
+
+.title-saldo-actual
+{
+    font-size: 14px;
+    color:#05052C;
+}
+
+.div-valor-saldo
+{
+    font-size:40px;
+    font-family: LatoBold;
+    margin:13px auto 10px auto;
+}
+
+.btn-recargar-cuenta
+{
+    font-family: LatoBold;
+    font-size:18px;
+    padding:10px 78px 13px 66px;
+    background: none;
+    border:#0099F2 solid 1px;
+    color:#0099F2;
+    border-radius:8px;
+}
+
+.div-text-saldo
+{
+    color:#05052C;
+    font-size: 14px;
+    text-align: left;    
+    margin:22px 13px 11px 15px;
+}
+
+.title-tarjeta
+{
+    text-align: left;
+    margin:22px auto 18px 35px;
+}
+
+.btn-add-tarjeta
+{
+    font-family: LatoBold;
+    font-size:18px;    
+    padding:10px 36px 13px 31px;
+    background: none;
+    border:#0099F2 solid 1px;
+    color:#0099F2;
+    border-radius:8px;
+    margin-bottom:22px;
+}
+
+.title-tarjetas-vinculadas
+{
+    margin:22px auto auto 15px;
+    font-size:14px;
+    text-align: left;
+    font-family: LatoReg;
+    color:#05052C;
+}
+
+.item-tarjeta
+{
+    display:flex;
+    margin:23px auto 15px 15px;
+    position:relative;
+}
+
+.icon-tarjeta
+{
+    width:37px;
+    height: 28px;
+}
+
+.txt-nro-tarjeta
+{
+    font-size:16px;
+    color:#01002F;    
+    margin:auto 12px;
+}
+
+.icon-arrox-next
+{
+    position:absolute;
+    width:12px;
+    height:12px;
+    top:10px;
+    right:12px;
+}
+
+.div-btn-nueva-tarjeta
+{
+    text-align: left;
+}
+
+.btn-nueva-add-tarjeta
+{
+    color:#0099F2;
+    font-size:14px;
+    background:none;
+    border:none;
+    margin:0 0 12px 16px;
+    padding:0;
+}
+
+.modal-saldo-insuficiente
+{
+    height: 170px;
+    width:280px;
+}

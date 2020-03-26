@@ -147,14 +147,28 @@
 
 .item-add-pet .item .item-block .item-ios .item-select
 {
-  padding-left:0 !important;
-  // width:345px;
+  padding-left:0 !important;  
   width:100%;
 }
 
 .item-add-pet .item-inner
 {
   padding-right:0 !important;
+}
+
+.div-select-walk-type
+{
+  position: relative;
+}
+
+.img-walk-type
+{
+  width: 12px;
+  height: 12px;
+  top: 3px;
+  right: 9px;
+  position: absolute;
+  transform: rotate(90deg);
 }
 
 

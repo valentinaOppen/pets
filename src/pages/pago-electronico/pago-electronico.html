@@ -1,0 +1,52 @@
+
+<ion-header>
+  <ion-navbar>
+    <ion-title class="title-add-mascota">Pago Electrónico</ion-title>
+    <button ion-button class="btn-back-close" (click)="navigateToOtherPage('close')"><ion-icon name="close"></ion-icon></button>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <div class="container">
+    <div class="content-pago-electronico">
+      <div class="div-text-desc-pago-electronico">
+        Puedes pagar tus paseos por medio de recarga o vinculando tu tarjeta de crédito
+      </div>
+
+      <div class="div-white">
+        <div class="div-title-saldo-actual">
+          <hr class="hr-saldo">
+          <div class="title-saldo-actual">Saldo actual</div>
+          <hr class="hr-saldo">
+        </div>
+        <div class="div-valor-saldo">$0</div>
+        <div class="div-btn-recargar-cuenta">
+          <button class="btn-recargar-cuenta">Recargar cuenta</button>
+        </div>
+        <div class="div-text-saldo">
+          *Puedes recargar lo que quieras, se te descontará solo el valor por cada servicio finalizado.
+        </div>
+      </div>
+
+      <div class="div-white">
+        <div class="title-tarjeta">Paga con tarjeta de crédito</div>
+        <div class="div-btn-recargar-cuenta">
+          <button class="btn-add-tarjeta">Agregar tarjeta de crédito</button>
+        </div>
+      </div>
+
+      <div class="div-white">
+        <div class="title-tarjetas-vinculadas">Tarjetas vinculadas</div>
+        <div class="item-tarjeta">
+          <img src="../../assets/icon/icon_mc.png" alt="" class="icon-tarjeta">
+          <div class="txt-nro-tarjeta">**** **** **** 9073</div>
+          <img src="../../assets/icon/ic_arrow_down.svg" alt="" class="icon-arrox-next">
+        </div>
+        <div class="div-btn-nueva-tarjeta">
+          <button class="btn-nueva-add-tarjeta" (click)="openModalErrorPago()">Agregar</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</ion-content>

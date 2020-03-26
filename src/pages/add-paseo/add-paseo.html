@@ -41,11 +41,7 @@
         </div>
       </div>
       <ion-item class="item-add-pet">
-        <ion-select placeholder="Escoge un tipo de paseo">
-          <ion-option>Paseo Uno</ion-option>
-          <ion-option>Paseo Dos</ion-option>
-          <ion-option>Paseo Tres</ion-option>
-        </ion-select>
+        <div class="div-select-walk-type" (click)="navigateToOtherPage('WalkType')">Escoge un tipo de paseo<img src="../../assets/icon/ic_arrow_down.svg" alt="" class="img-walk-type"></div>       
       </ion-item>
       <div class="div-title-add-paseo">¿Qué días quieres pasear a tu mascota?</div>
       <div class="div-btn-days">

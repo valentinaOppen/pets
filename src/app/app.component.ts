@@ -18,6 +18,7 @@ import { AyudaPage } from '../pages/ayuda/ayuda';
 import { AyudaPagoPage } from '../pages/ayuda-pago/ayuda-pago';
 import { AddPaseoPage } from '../pages/add-paseo/add-paseo';
 import { WalkTypePage } from '../pages/walk-type/walk-type';
+import { PagoElectronicoPage } from '../pages/pago-electronico/pago-electronico';
 
 @Component({
   templateUrl: 'app.html'
@@ -50,6 +51,7 @@ export class MyApp {
       { title: 'Tipos Paseo', component: WalkTypePage},
       { title: 'Ayuda', component: AyudaPage},
       { title: 'Ayuda Pago', component: AyudaPagoPage},
+      { title: 'Pago Electrónico', component: PagoElectronicoPage},
     ];
   }
 

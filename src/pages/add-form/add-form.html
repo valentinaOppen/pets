@@ -32,12 +32,17 @@
           </div>
           <ion-item class="item-btn">
             <div class="div-btns-foto">Sube una foto de tu mascota</div>
+            <div class="div-photo-added">
+              <img src="../../assets/imgs/pet_selected.svg" alt="" class="icon-photo-added">
+              <div class="txt-photo-added">Foto agregada</div>
+            </div>
             <div class="btn-galeria">Ver galería<ion-icon class="icon-foto" name="images"></ion-icon></div>
             <div class="btn-galeria" style="float:right">Tomar foto<ion-icon class="icon-foto" name="camera"></ion-icon></div>
           </ion-item>
           <button ion-button class="btn-send-form" type="submit" block>Guardar</button>
         </form>
         <button ion-button class="btn-send-form" type="button" (click)="navigateToOtherPage('error')" block>Modal Error</button>
+        <button ion-button class="btn-send-form" type="button" (click)="navigateToOtherPage('error-red')" block>Modal Error</button>
   </div>
 </div>
 </ion-content>

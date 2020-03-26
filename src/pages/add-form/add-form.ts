@@ -30,6 +30,10 @@ export class AddFormPage {
         const modalerror = await this.modalController.create('ModalAddpetErrorPage');
         modalerror.present();
         break;
+      case 'error-red':
+        const modalerrorred = await this.modalController.create('ModalAddpetErrorRedPage');
+        modalerrorred.present();
+        break;
     }
     // this.navCtrl.setRoot(HomePage);
     // const modal = await this.modalController.create('ModalAddpetOkPage');

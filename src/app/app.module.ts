@@ -23,6 +23,9 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { NgxDatatableModule } from '@swimlane/ngx-datatable';
+import { PagoElectronicoPage } from '../pages/pago-electronico/pago-electronico';
+import { ModalSaldoInsuficientePageModule } from '../pages/modal-saldo-insuficiente/modal-saldo-insuficiente.module';
+import { ModalSaldoInsuficientePage } from '../pages/modal-saldo-insuficiente/modal-saldo-insuficiente';
 
 
 @NgModule({
@@ -42,14 +45,15 @@ import { NgxDatatableModule } from '@swimlane/ngx-datatable';
     WakypetLogoPage,
     AyudaPage,
     AyudaPagoPage,
-    WalkTypePage
-
+    WalkTypePage,
+    PagoElectronicoPage
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   imports: [
     BrowserModule,
     IonicModule.forRoot(MyApp),
-    NgxDatatableModule
+    NgxDatatableModule,
+    ModalSaldoInsuficientePageModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -68,7 +72,9 @@ import { NgxDatatableModule } from '@swimlane/ngx-datatable';
     WakypetLogoPage,
     AyudaPage,
     AyudaPagoPage,
-    WalkTypePage
+    WalkTypePage,
+    PagoElectronicoPage,
+    ModalSaldoInsuficientePage
   ],
   providers: [
     StatusBar,
