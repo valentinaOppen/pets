@@ -1,6 +1,9 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams, ModalController, ModalOptions } from 'ionic-angular';
 import { ModalSaldoInsuficientePage } from '../modal-saldo-insuficiente/modal-saldo-insuficiente';
+import { AddPaseoPage } from '../add-paseo/add-paseo';
+import { ModalPagoOkPage } from '../modal-pago-ok/modal-pago-ok';
+import { ModalPagoErrorPage } from '../modal-pago-error/modal-pago-error';
 
 @IonicPage()  
 @Component({
@@ -16,19 +19,45 @@ export class PagoElectronicoPage {
    
   }
 
+  navigateToOtherPage()
+  {    
+    this.navCtrl.setRoot(AddPaseoPage);
+  }
+
   async openModalErrorPago()
   {  
     const myModalOptions: ModalOptions = {      
-      cssClass : 'modal-saldo-insuficiente'
+      cssClass : 'my-modal-inner'
     };
-    // const modalError = await this.modalController.create({
-    //   component: ModalSaldoInsuficientePage,
-    //   cssClass: 'modal-saldo-insuficiente'
-    // });
+    
     const modalError = await this.modalController.create('ModalSaldoInsuficientePage', null, myModalOptions);
     return await modalError.present();
     
   }
+
+  async openModalOk()
+  {       
+    const modalPagoOk = await this.modalController.create('ModalPagoOkPage');
+    return await modalPagoOk.present();
+    
+  }
+
+
+  async openModalError()
+  {          
+    const modalError = await this.modalController.create('ModalPagoErrorPage');
+    return await modalError.present();
+    
+  }
+
+  async openModalConfirmarPaseo()
+  {                  
+    const modalError = await this.modalController.create('ModalConfirmarPaseoPage');
+    return await modalError.present();
+    
+  }
+
+  
   
 
 

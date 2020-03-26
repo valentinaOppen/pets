@@ -55,15 +55,31 @@
     margin:13px auto 10px auto;
 }
 
-.btn-recargar-cuenta
+.btn-recargar
 {
     font-family: LatoBold;
     font-size:18px;
-    padding:10px 78px 13px 66px;
+    padding:10px 78px 13px 66px;    
+    border-radius:8px;
+    width:275px;
+    height:45px;
+}
+
+.btn-recargar.pagar
+{
+    margin-top:21px;
+    background: #0099F2;    
+    color:white;
+}
+
+.btn-recargar.cuenta
+{
     background: none;
     border:#0099F2 solid 1px;
     color:#0099F2;
-    border-radius:8px;
+    margin-top:10px;
+    white-space: nowrap;
+
 }
 
 .div-text-saldo
@@ -151,3 +167,4 @@
     width:280px;    
     margin: 160px auto auto auto !important;
 }
+
