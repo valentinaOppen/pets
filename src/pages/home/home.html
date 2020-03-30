@@ -16,9 +16,17 @@
 <ion-content>
 <div class="container-home">
   <div class="div-text-home">
-    <div class="txt-home">¡Hola! ¿Que quieres hacer hoy?</div>
+    <div class="txt-home">¡Hola! ¿Qué tál un paseo para hoy?</div>
   </div>
   <div class="div-btns-home">
+    <div class="div-btn-home div-btn-planes" (click)="navigateToOtherPage('AddPaseoPage')">
+      <div class="title-btn">Planes semanales</div>
+      <div class="text-btn">Conoce los planes con <br> precio especial y prográmalo.</div>
+      <div class="btn-home-arrow-fwd">
+        <ion-icon name="arrow-forward"></ion-icon>
+      </div>
+      <!-- <div class="div-img-btn"><img src="../../assets/imgs/banner2.png" alt="" class="img-btn img-btn-paseo"></div> -->
+    </div>
     <div class="div-btn-home div-btn-paseo" (click)="navigateToOtherPage('AddPaseoPage')">
       <div class="title-btn">Programar un paseo</div>
       <div class="text-btn">Para hoy, o para cualquier día <br> de la semana.</div>
@@ -27,22 +35,74 @@
       </div>
       <!-- <div class="div-img-btn"><img src="../../assets/imgs/banner1.png" alt="" class="img-btn"></div> -->
     </div>
-    <div class="div-btn-home div-btn-planes" (click)="navigateToOtherPage('AddPaseoPage')">
-        <div class="title-btn">Planes semanales</div>
-        <div class="text-btn">Conoce los planes con <br> precio especial y prográmalo.</div>
-        <div class="btn-home-arrow-fwd">
-          <ion-icon name="arrow-forward"></ion-icon>
-        </div>
-        <!-- <div class="div-img-btn"><img src="../../assets/imgs/banner2.png" alt="" class="img-btn img-btn-paseo"></div> -->
-    </div>
-    <div class="div-btn-home-opc">
+    
+    <!-- <div class="div-btn-home-opc">
         <div class="title-btn-opc">Mis programaciones</div>
         <div class="text-btn-opc">Aun no has programado paseos</div>
-    </div>
+    </div> -->
     <div class="div-btn-home-opc">
+      <div class="div-title-btn-opc">
         <div class="title-btn-opc">Próximos paseos</div>
-        <div class="text-btn-opc">No tienes paseos próximamente.</div>
+        <div class="title-btn-ver-todos">Ver todos</div>
+        <!-- <div class="text-btn-opc">No tienes paseos próximamente.</div> -->
+      </div>        
     </div>
+
+    <div class="div-container-paseos">
+      <div class="div-paseo">
+        <div class="div-img-paseo">
+          <img src="../../assets/imgs/tobias.png" alt="" class="img-mascota-paseo-simple">
+        </div>
+        <div class="div-text-mascota-paseo">
+          <div class="div-nombre-mascota">Tobias</div>
+          <div class="div-estado item-dato-mascota">
+            <div class="title-estado">Estado: </div>
+            <div class="nombre-estado" style="color:#E3A329">Pendiente</div>            
+          </div> 
+          <div class="fecha-hora item-dato-mascota">Fecha: 21/03/2020 - Hora: 1:00 p.m</div>
+        </div>
+        <div class="div-btn-paseo-arrow-fwd">
+          <ion-icon name="arrow-forward"></ion-icon>
+        </div>
+      </div>
+      <div class="div-paseo">
+        <div class="div-img-paseo-simple">
+          <img src="../../assets/imgs/lulu_ok.png" alt="" class="img-mascota-paseo-doble pet-uno">
+          <img src="../../assets/imgs/tobias.png" alt="" class="img-mascota-paseo-doble pet-dos">
+        </div>
+        <div class="div-text-mascota-paseo">
+          <div class="div-nombre-mascota">Tobias/Lulú</div>
+          <div class="div-estado item-dato-mascota">
+            <div class="title-estado">Estado: </div>
+            <div class="nombre-estado" style="color:#00CEC1">Aceptado</div>            
+          </div> 
+          <div class="fecha-hora item-dato-mascota">Fecha: 22/03/2020 - Hora: 1:00 p.m</div>
+        </div>
+        <div class="div-btn-paseo-arrow-fwd">
+          <ion-icon name="arrow-forward"></ion-icon>
+        </div>
+      </div>
+      <div class="div-paseo">
+        <div class="div-img-paseo">
+          <img src="../../assets/imgs/lulu_ok.png" alt="" class="img-mascota-paseo-doble pet-uno">
+          <img src="../../assets/imgs/tobias.png" alt="" class="img-mascota-paseo-doble pet-dos">
+          <div class="div-mas-mascotas"><div class="text-mas-mascotas">+2</div></div>
+        </div>
+        <div class="div-text-mascota-paseo">
+          <div class="div-nombre-mascota">Tobias/Lulú</div>
+          <div class="div-estado item-dato-mascota">
+            <div class="title-estado">Estado: </div>
+            <div class="nombre-estado" style="color:#00CEC1">Aceptado</div>            
+          </div> 
+          <div class="fecha-hora item-dato-mascota">Fecha: 22/03/2020 - Hora: 1:00 p.m</div>
+        </div>
+        <div class="div-btn-paseo-arrow-fwd">
+          <ion-icon name="arrow-forward"></ion-icon>
+        </div>
+      </div>
+    </div>
+
+
   </div>
 </div>
 </ion-content>

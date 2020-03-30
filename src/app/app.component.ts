@@ -3,7 +3,7 @@ import { Component, ViewChild } from '@angular/core';
 import { Platform, MenuController, Nav } from 'ionic-angular';
 
 import { HelloIonicPage } from '../pages/hello-ionic/hello-ionic';
-import { ListPage } from '../pages/list/list';
+// import { ListPage } from '../pages/list/list';
 import { HomePage } from '../pages/home/home';
 
 import { StatusBar } from '@ionic-native/status-bar';
@@ -11,7 +11,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { LoginPage } from '../pages/login/login';
 import { RegisterPage } from '../pages/register/register';
 import { AddFormPage } from '../pages/add-form/add-form';
-import { ListPetsPage } from '../pages/list-pets/list-pets';
+// import { ListPetsPage } from '../pages/list-pets/list-pets';
 import { LoadingPage } from '../pages/loading/loading';
 import { WakypetLogoPage } from '../pages/wakypet-logo/wakypet-logo';
 import { AyudaPage } from '../pages/ayuda/ayuda';
@@ -19,6 +19,7 @@ import { AyudaPagoPage } from '../pages/ayuda-pago/ayuda-pago';
 import { AddPaseoPage } from '../pages/add-paseo/add-paseo';
 import { WalkTypePage } from '../pages/walk-type/walk-type';
 import { PagoElectronicoPage } from '../pages/pago-electronico/pago-electronico';
+import { ResumenPagoPage } from '../pages/resumen-pago/resumen-pago';
 
 @Component({
   templateUrl: 'app.html'
@@ -52,6 +53,7 @@ export class MyApp {
       { title: 'Ayuda', component: AyudaPage},
       { title: 'Ayuda Pago', component: AyudaPagoPage},
       { title: 'Pago Electrónico', component: PagoElectronicoPage},
+      { title: 'Resumen Pago', component: ResumenPagoPage},
     ];
   }
 

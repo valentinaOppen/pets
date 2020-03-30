@@ -8,7 +8,7 @@ import { LoginPage } from '../pages/login/login';
 import { RegisterPage } from '../pages/register/register';
 import { WelcomePage } from '../pages/welcome/welcome';
 import { AddFormPage } from '../pages/add-form/add-form';
-import { ListPetsPage } from '../pages/list-pets/list-pets';
+// import { ListPetsPage } from '../pages/list-pets/list-pets';
 import { WakypetLogoPage } from '../pages/wakypet-logo/wakypet-logo';
 import { AyudaPage } from '../pages/ayuda/ayuda';
 import { AyudaPagoPage } from '../pages/ayuda-pago/ayuda-pago';
@@ -17,7 +17,7 @@ import { LoadingPage } from '../pages/loading/loading';
 import { AddPaseoPage } from '../pages/add-paseo/add-paseo';
 import { HelloIonicPage } from '../pages/hello-ionic/hello-ionic';
 import { ItemDetailsPage } from '../pages/item-details/item-details';
-import { ListPage } from '../pages/list/list';
+// import { ListPage } from '../pages/list/list';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -26,6 +26,7 @@ import { NgxDatatableModule } from '@swimlane/ngx-datatable';
 import { PagoElectronicoPage } from '../pages/pago-electronico/pago-electronico';
 import { ModalSaldoInsuficientePageModule } from '../pages/modal-saldo-insuficiente/modal-saldo-insuficiente.module';
 import { ModalSaldoInsuficientePage } from '../pages/modal-saldo-insuficiente/modal-saldo-insuficiente';
+import { ResumenPagoPage } from '../pages/resumen-pago/resumen-pago';
 
 
 @NgModule({
@@ -33,48 +34,51 @@ import { ModalSaldoInsuficientePage } from '../pages/modal-saldo-insuficiente/mo
     MyApp,
     HelloIonicPage,
     ItemDetailsPage,
-    ListPage,
+    // ListPage,
     HomePage,
     LoginPage,
     RegisterPage,
     WelcomePage,
     AddFormPage,
     AddPaseoPage,
-    ListPetsPage,
-    LoadingPage,
-    WakypetLogoPage,
-    AyudaPage,
-    AyudaPagoPage,
-    WalkTypePage,
-    PagoElectronicoPage
-  ],
-  schemas: [CUSTOM_ELEMENTS_SCHEMA],
-  imports: [
-    BrowserModule,
-    IonicModule.forRoot(MyApp),
-    NgxDatatableModule,
-    ModalSaldoInsuficientePageModule
-  ],
-  bootstrap: [IonicApp],
-  entryComponents: [
-    MyApp,
-    HelloIonicPage,
-    ItemDetailsPage,
-    ListPage,
-    HomePage,
-    LoginPage,
-    RegisterPage,
-    WelcomePage,
-    AddFormPage,
-    AddPaseoPage,
-    ListPetsPage,
+    // ListPetsPage,
     LoadingPage,
     WakypetLogoPage,
     AyudaPage,
     AyudaPagoPage,
     WalkTypePage,
     PagoElectronicoPage,
-    ModalSaldoInsuficientePage
+    ResumenPagoPage
+  ],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA],
+  imports: [
+    BrowserModule,
+    IonicModule.forRoot(MyApp),
+    NgxDatatableModule,
+    ModalSaldoInsuficientePageModule,
+    // ResumenPagoPage
+  ],
+  bootstrap: [IonicApp],
+  entryComponents: [
+    MyApp,
+    HelloIonicPage,
+    ItemDetailsPage,
+    // ListPage,
+    HomePage,
+    LoginPage,
+    RegisterPage,
+    WelcomePage,
+    AddFormPage,
+    AddPaseoPage,
+    // ListPetsPage,
+    LoadingPage,
+    WakypetLogoPage,
+    AyudaPage,
+    AyudaPagoPage,
+    WalkTypePage,
+    PagoElectronicoPage,
+    ModalSaldoInsuficientePage,
+    ResumenPagoPage
   ],
   providers: [
     StatusBar,

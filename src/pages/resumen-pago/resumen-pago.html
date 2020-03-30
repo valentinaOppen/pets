@@ -1,0 +1,72 @@
+<ion-header>
+  <!-- <ion-navbar>
+    <button ion-button class="btn-back-paseo" (click)="navigateToOtherPage('HomePage')">
+      <img src="../../assets/icon/ic_arrow_back.svg" alt="" class="icon-back-paseo">
+    </button>
+    <ion-title class="title-add-mascota">Resumen del Pago</ion-title>
+    <button ion-button class="btn-back-close" (click)="navigateToOtherPage('close')"><ion-icon name="close"></ion-icon></button>
+  </ion-navbar> -->
+  <ion-navbar>
+    <button ion-button class="btn-back-paseo" (click)="navigateToOtherPage('HomePage')">
+      <img src="../../assets/icon/ic_arrow_back.svg" alt="" class="icon-back-paseo">
+    </button>
+    <ion-title class="title-add-paseo">Resumen del Pago</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <div class="div-container">
+    <div class="item-resumen">Paseo de 30 Min. <span class="black-margin">$6.500</span></div>
+    <div class="item-resumen">Lunes y Miércoles de cada semana</div>
+    <div class="item-resumen">Inicia: 25 de Marzo</div>
+    <hr class="end-items-resumen">
+
+    <div class="div-item-resumen-total">
+      <div class="item-resumen-total">Total paseos x 4 semanas</div>
+      <div class="div-puntos-total">...........................................</div>
+      <div class="item-resumen-total numero"><span class="black">7</span></div>
+    </div>
+    <div class="div-item-resumen-total">
+      <div class="item-title-resumen-total">Total a pagar</div>
+      <div class="div-puntos-total-black">...........................................................................................</div>
+      <div class="item-resumen-total"><span class="total-green">$45,500</span></div>
+    </div>
+
+    <div class="div-item-text">
+      <span class="black">Importante:</span>
+      Te enviaremos por correo la factura de cada pago que te generaremos mensualmente.
+    </div>
+    <hr class="end-items-resumen">
+
+    <div class="div-opc-pago-resumen">
+      <div class="item-title-resumen-total">Pagar con</div>    
+      <div class="div-opc-pagos">
+        <div class="div-datos-tarjetas">
+          <!-- <div class="div-border-select" *ngIf="dayOpcSelected!=2"></div> -->
+          <!-- <img src="../../assets/imgs/pet_selected.svg" alt="" class="img-day-opc-check" *ngIf="dayOpcSelected==2"> -->
+          
+          <!-- TARJETA CARGADA -->
+          <!-- <img src="../../assets/imgs/pet_selected.svg" alt="" class="img-checked">
+          <img src="../../assets/icon/icon_mc.png" alt="" class="img-tarjeta">
+          <div class="txt-nro-tarjeta">**** **** **** 9073</div> -->
+
+          <!-- SIN TARJETA CARGADA -->
+          <div class="div-border-select"></div>
+          <div class="txt-saldo-cuenta">Tarjeta de crédito</div>
+
+        </div>
+        <div class="div-datos-tarjetas">
+          <!-- <div class="div-border-select" *ngIf="dayOpcSelected!=2"></div> -->
+          <!-- <img src="../../assets/imgs/pet_selected.svg" alt="" class="img-day-opc-check" *ngIf="dayOpcSelected==2"> -->
+          <div class="div-border-select"></div>
+          <div class="txt-saldo-cuenta">Saldo en tu cuenta ($18.000)</div>
+          <div class="btn-recargar-resumen">Recargar</div>
+        </div>
+      </div>    
+    </div>
+
+    <div class="div-btn-modal-programar-paseo">
+      <button class="btn-programar-paseo">Pagar y programar paseo</button>
+    </div>
+  </div>
+</ion-content>

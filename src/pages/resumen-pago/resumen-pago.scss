@@ -1,0 +1,159 @@
+page-resumen-pago 
+{
+    .div-container
+    {
+        margin:14px 25px 27px 17px; 
+        font-size:16px;
+        font-family:LatoReg;
+        border:solid 1px transparent;
+    }
+
+    .item-resumen
+    {
+        margin-top:11px;
+        font-size:16px;
+        font-family: LatoReg;
+    }
+
+    .black-margin
+    {
+        font-family:LatoBold;
+        margin-left:5px;
+    }
+
+    .black
+    {
+        font-family:LatoBold;        
+    }
+
+    .div-item-resumen-total
+    {
+        display:flex;
+        justify-content: space-between;
+        font-family:LatoReg;
+        font-size:16px;
+        margin-top:15px;
+    }
+
+    .item-resumen-total
+    {
+        white-space: nowrap;
+        // margin-top:11px;
+    }
+
+    .numero
+    {
+        padding-left:6px;
+    }
+
+    .end-items-resumen
+    {
+        // border-bottom: solid 1px #D9E8ED;
+        margin:20px auto 0 auto;
+    }
+
+    .div-puntos-total
+    {
+        // margin-top:11px;
+        overflow: hidden;
+        white-space: nowrap;
+        padding:0 6px;
+    }
+
+    .div-puntos-total-black
+    {
+        // margin-top:11px;
+        overflow: hidden;
+        white-space: nowrap;
+        padding:0 6px;
+        margin-bottom:3.5px;
+    }
+
+    .item-title-resumen-total
+    {
+        font-size:18px;
+        font-family: LatoBold;
+        color:#01002F;        
+        white-space: nowrap;
+    }
+
+    .total-green
+    {
+        color:#00CEC1;
+        font-size:18px;
+        font-family: LatoBold;
+        padding-left:5px;
+    }
+
+    .div-item-text
+    {
+        font-size:12px;
+        color:#575C71;
+        margin-top:24px;
+    }
+
+    .div-opc-pago-resumen
+    {
+        margin-top:21px;
+    }
+    
+    .div-datos-tarjetas
+    {
+        display: inline-flex;
+        margin:16px auto 7px 0;
+        position:relative;
+        width:100%;
+    }
+
+    .img-tarjeta
+    {
+        width:37px;
+        height: 28px;
+        margin:0 12px 0 18px;
+    }
+
+    .div-border-select
+    {
+        margin:0 12px 0 0px;
+        width:18px;
+        height: 18px;
+        border:solid 1px #D2DFE3;
+        border-radius: 100%;
+    }
+
+    .txt-saldo-cuenta
+    {
+        font-size:14px;
+        white-space: nowrap;
+        color:#575C71;
+    }
+
+    .btn-recargar-resumen
+    {
+        color:#0099F2;
+        background:transparent;
+        border:none;
+        font-size:14px;
+        font-family: LatoBold;        
+        position: absolute;
+        right:0;
+    }
+
+    .div-btn-modal-programar-paseo
+    {
+        text-align: center;
+    }
+
+    .btn-programar-paseo
+    {
+        margin: 132px auto 27px auto;
+        width: 275px;
+        height: 45px;
+        background-color: #0099F2;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        font-size: 18px;
+        font-family: LatoBold;
+    }
+}

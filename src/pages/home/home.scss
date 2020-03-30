@@ -1,8 +1,9 @@
 .container-home
 {
   position: relative;
-  max-width: fit-content;
-  margin:20px auto auto auto;
+  // max-width: fit-content;
+  // margin:20px auto auto auto;
+  margin:20px 20px 7px 20px;
   min-height: 100vh;
   color: #395A97;
   background-color: white;
@@ -12,7 +13,7 @@
 
 .div-text-home
 {
-  margin: 0px auto 24px 21px;
+  margin: 0px auto 24px 0px;
   font-size:20px;
   font-family: LatoBold;
 }
@@ -20,6 +21,9 @@
 .txt-home
 {
   text-align: left;
+  color:#01002F;
+  font-size:18px;
+  font-family: LatoBold;
 }
 
 .div-btn-home
@@ -51,11 +55,8 @@
 .div-btn-home-opc
 {
   position: relative;
-  margin: 32px auto 37px 0px;
+  margin: 23px auto 14px 0px;
   text-align: left;
-  // padding: 1rem;
-  // width: 90%;
-  // border-radius: 10px;
 }
 
 .div-btn-paseo
@@ -87,9 +88,8 @@
 {
   font-size: 18px;
   font-family: LatoBold;
-  margin: 21px auto 4px 15px;
+  margin: 20px auto 4px 15px;
   color: #575C71;
-
 }
 
 .text-btn
@@ -119,12 +119,27 @@
   margin-right: 13%;
 }
 
+.div-title-btn-opc
+{
+  display:flex;
+  justify-content: space-between;
+}
+
 .title-btn-opc
 {
-  margin:2rem 0;
+  // margin:2rem 0;
   font-size:20px;
   color:#475A7F;
   font-family:LatoBold;
+}
+
+.title-btn-ver-todos
+{
+  color:#575C71;
+  font-size: 14px;
+  text-decoration: underline;
+  font-family: LatoReg;
+  margin:auto 0;
 }
 
 .text-btn-opc
@@ -134,3 +149,134 @@
   font-size:14px;
   font-family:LatoBold;
 }
+
+page-home
+{
+  .div-container-paseos
+  {
+    width:100%;
+    // display:flex;
+    // border:solid 1px #D9E8ED;
+    // border-radius:6px;    
+  }
+
+  .div-paseo
+  {
+    width:100%;
+    display:flex;
+    border:solid 1px #D9E8ED;
+    border-radius:6px;    
+    position:relative;
+    margin-bottom:10px;
+  }
+
+  .div-img-paseo
+  {
+    position:relative;
+    width:70px;
+    height: 60px;
+    margin:9px 10px 10px 7px;
+  }
+
+  .div-img-paseo-simple
+  {
+    position:relative;
+    width:70px;
+    height: 60px;
+    margin:9px 10px 10px 10px;
+  }
+
+
+  .img-mascota-paseo-simple
+  {
+    border:solid 1px #D2DFE3;
+    border-radius:100%;    
+    width: 60px;
+  }
+
+  .img-mascota-paseo-doble
+  {
+    position:absolute;
+    border:solid 1px #D2DFE3;    
+    border-radius:100%;    
+  }
+
+  .pet-uno
+  {
+    width:44px;
+    height: 43px;
+    top:0;
+    left:0;
+  }
+
+  .pet-dos
+  {
+    width:44px;
+    height: 43px;
+    bottom:0;
+    right:0;
+  }
+
+  .div-mas-mascotas
+  {
+    width: 25px;
+    height: 25px;
+    background: #0099F2;
+    border:solid 1px #D2DFE3;
+    border-radius: 100%;
+    color:white;
+    position: absolute;
+    bottom:0;
+    left:8px;
+    z-index: 1;
+    font-size:10px;
+  }
+
+  .text-mas-mascotas
+  {
+    margin:16px;
+  }
+
+  .div-text-mascota-paseo
+  {
+    font-size:12px;
+    color:#575C71;
+    text-align: left;
+    margin:auto 0;
+    height: fit-content;
+  }
+
+  .div-nombre-mascota
+  {
+    font-size:14px;
+    font-family:LatoBold;    
+  }
+
+  .div-estado
+  {
+    display:flex;
+  }
+
+  .nombre-estado
+  {
+    margin-left:2px;
+  }
+
+  .item-dato-mascota
+  {
+    margin-top:3px;
+  }
+
+  .div-btn-paseo-arrow-fwd
+  {
+    position: absolute;
+    right: 15px;
+    top: 33px;
+  }
+
+  .div-btn-paseo-arrow-fwd ion-icon
+  {
+    font-size:20px;
+    color:#D9E8ED;
+  }
+} 
