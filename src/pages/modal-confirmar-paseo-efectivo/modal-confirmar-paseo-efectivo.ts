@@ -1,10 +1,9 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { PagoElectronicoPage } from '../pago-electronico/pago-electronico';
 import { HomePage } from '../home/home';
 
 /**
- * Generated class for the ResumenPagoPage page.
+ * Generated class for the ModalConfirmarPaseoEfectivoPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -12,27 +11,21 @@ import { HomePage } from '../home/home';
 
 @IonicPage()
 @Component({
-  selector: 'page-resumen-pago',
-  templateUrl: 'resumen-pago.html',
+  selector: 'page-modal-confirmar-paseo-efectivo',
+  templateUrl: 'modal-confirmar-paseo-efectivo.html',
 })
-export class ResumenPagoPage {
+export class ModalConfirmarPaseoEfectivoPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad ResumenPagoPage');
-  }
-
-  async navigateToOtherPage()
-  {
-    this.navCtrl.setRoot(PagoElectronicoPage);
+    console.log('ionViewDidLoad ModalConfirmarPaseoEfectivoPage');
   }
 
   navigateHome()
   {
     this.navCtrl.setRoot(HomePage);
   }
-
 
 }

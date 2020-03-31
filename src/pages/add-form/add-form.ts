@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { ModalController } from 'ionic-angular';
 import { HomePage } from '../home/home';
+import { Validators, FormBuilder, FormGroup } from '@angular/forms';
 
 @Component({
   selector: 'page-add-form',
@@ -9,13 +10,22 @@ import { HomePage } from '../home/home';
 })
 export class AddFormPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams, public modalController:ModalController) {
+  form : FormGroup;
+
+  constructor(public navCtrl: NavController, public navParams: NavParams, public modalController:ModalController,public formBuilder: FormBuilder) 
+  {
+    this.form = this.formBuilder.group({
+      nombre: ['', Validators.required],
+      fecha: ['', Validators.required],
+      raza: ['', Validators.required]
+    });    
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad AddFormPage');
   }
 
+  formControlName="myField"
   async navigateToOtherPage(page)
   {
     switch (page) {

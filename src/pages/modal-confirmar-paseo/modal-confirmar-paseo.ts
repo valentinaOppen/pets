@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams, ViewController } from 'ionic-angular';
+import { HomePage } from '../home/home';
 
 /**
  * Generated class for the ModalConfirmarPaseoPage page.
@@ -26,6 +27,11 @@ export class ModalConfirmarPaseoPage {
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad ModalConfirmarPaseoPage');
+  }
+
+  navigateHome()
+  {
+    this.navCtrl.setRoot(HomePage);
   }
 
 }

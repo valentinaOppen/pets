@@ -41,7 +41,7 @@
         </div>
       </div>
       <ion-item class="item-add-pet">
-        <div class="div-select-walk-type" (click)="navigateToOtherPage('WalkType')">Escoge un tipo de paseo<img src="../../assets/icon/ic_arrow_down.svg" alt="" class="img-walk-type"></div>       
+        <div class="div-select-walk-type" (click)="navigateToOtherPage('WalkType')">Escoge un tipo de paseo<img src="../../assets/icon/arrow_next.svg" alt="" class="img-walk-type"></div>       
       </ion-item>
       <div class="div-title-add-paseo">¿Qué días quieres pasear a tu mascota?</div>
       <div class="div-btn-days">
@@ -119,7 +119,7 @@
         </button>
       </div>
       <div class="div-btn-programar-paseo">
-        <button class="btn-programar">Programar</button>
+        <button class="btn-programar" (click)="navigateToOtherPage('ok-pago')">Programar</button>
       </div>
     </form>
   </div>

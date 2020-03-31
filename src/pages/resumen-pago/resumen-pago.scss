@@ -43,7 +43,7 @@ page-resumen-pago
 
     .numero
     {
-        padding-left:6px;
+        padding-left:5px;
     }
 
     .end-items-resumen
@@ -55,6 +55,7 @@ page-resumen-pago
     .div-puntos-total
     {
         // margin-top:11px;
+        color:#898989;
         overflow: hidden;
         white-space: nowrap;
         padding:0 6px;
@@ -72,7 +73,7 @@ page-resumen-pago
     .item-title-resumen-total
     {
         font-size:18px;
-        font-family: LatoBold;
+        font-family: LatoSemiBold;
         color:#01002F;        
         white-space: nowrap;
     }
@@ -81,7 +82,7 @@ page-resumen-pago
     {
         color:#00CEC1;
         font-size:18px;
-        font-family: LatoBold;
+        font-family: LatoSemiBold;
         padding-left:5px;
     }
 
@@ -134,7 +135,7 @@ page-resumen-pago
         background:transparent;
         border:none;
         font-size:14px;
-        font-family: LatoBold;        
+        font-family: LatoReg;        
         position: absolute;
         right:0;
     }

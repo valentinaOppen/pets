@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams, ViewController } from 'ionic-angular';
+import { HomePage } from '../home/home';
 
 /**
  * Generated class for the ModalPagoOkPage page.
@@ -25,6 +26,11 @@ export class ModalPagoOkPage {
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad ModalPagoOkPage');
+  }
+
+  navigateHome()
+  {
+    this.navCtrl.setRoot(HomePage);
   }
 
 }

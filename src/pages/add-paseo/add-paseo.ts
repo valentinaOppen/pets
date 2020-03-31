@@ -1,8 +1,11 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { IonicPage, NavController, NavParams, ModalController } from 'ionic-angular';
 import { HomePage } from '../home/home';
 import { AddFormPage } from '../add-form/add-form';
 import { WalkTypePage } from '../walk-type/walk-type';
+import { ModalConfirmarPaseoPage } from '../modal-confirmar-paseo/modal-confirmar-paseo';
+import { ResumenPagoPage } from '../resumen-pago/resumen-pago';
+import { ModalConfirmarPaseoEfectivoPage } from '../modal-confirmar-paseo-efectivo/modal-confirmar-paseo-efectivo';
 
 /**
  * Generated class for the AddPaseoPage page.
@@ -24,7 +27,7 @@ export class AddPaseoPage {
   repeatWeek = true;
   typePay = 2;
 
-  constructor(public navCtrl: NavController, public navParams: NavParams)
+  constructor(public navCtrl: NavController, public navParams: NavParams, public modalController:ModalController)
   {
     this.daysWeek =
     [
@@ -65,6 +68,25 @@ export class AddPaseoPage {
       this.navCtrl.setRoot(AddFormPage);
     }
 
+    if(page == 'ok-pago')
+    {
+      if(this.typePay == 2)
+      {
+        this.openModalPaseoOk();
+        // this.navCtrl.setRoot(ModalConfirmarPaseoEfectivoPage);
+      }
+      else
+      {
+        this.navCtrl.setRoot(ResumenPagoPage);
+      }
+    }
+  }
+
+  async openModalPaseoOk()
+  {       
+    const modalPagoOk = await this.modalController.create('ModalConfirmarPaseoEfectivoPage');
+    return await modalPagoOk.present();
+    
   }
 
   changePetSelected(number)
