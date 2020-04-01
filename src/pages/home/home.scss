@@ -4,7 +4,7 @@
   // max-width: fit-content;
   // margin:20px auto auto auto;
   margin:20px 20px 7px 20px;
-  min-height: 100vh;
+  // min-height: 100vh;
   color: #395A97;
   background-color: white;
   text-align:center;
@@ -234,7 +234,7 @@ page-home
 
   .text-mas-mascotas
   {
-    margin:16px;
+    margin:3px;
   }
 
   .div-text-mascota-paseo
@@ -278,5 +278,23 @@ page-home
   {
     font-size:20px;
     color:#D9E8ED;
+  }
+
+  .div-footer
+  {
+    border-top:solid 1px #F2F2F2;
+    display:flex;
+    color:#575C71;
+    font-size:10px;
+    justify-content: space-between;
+    padding:8px 28px;
+    margin-top:32px;
+  }
+
+  .img-footer
+  {
+    width:29px;
+    height: 27px;
+    margin:auto;
   }
 } 

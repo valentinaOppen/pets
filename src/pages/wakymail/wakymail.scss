@@ -1,0 +1,220 @@
+page-wakymail 
+{
+    .div-container-mail
+    {
+        width: 600px;
+        height: 864px;
+        background: white;
+    }
+
+    .div-content-mail
+    {
+        padding:41px 50px 18px 58px;
+    }
+
+    .div-header-mail
+    {
+        margin-bottom:40px;
+    }
+
+    .mensaje-mail
+    {
+        font-family: LatoReg;
+        color:#05052C;
+        font-size:18px;
+        margin-bottom:25px;
+    }
+
+    .div-content-paseador
+    {
+        display: flex;
+    }
+
+    .div-title-paseador
+    {
+        color:#05052C;
+        font-size:18px;
+        font-family: LatoBold;
+        margin-bottom:35px;
+    }
+    
+    .div-img-paseador
+    {
+        width:79px;
+        height: 79px;
+    }
+
+    .img-paseador
+    {
+        width:79px;
+        height: 79px;
+    }
+
+    .div-text-paseador
+    {
+        font-size:18px;
+        color:#05052C;
+        margin: auto auto auto 25px;
+    }
+
+    .div-item-paseador
+    {
+        display: flex;
+    }
+
+    .div-img-calif
+    {
+        width:13px;
+        height: 13px;
+    }
+
+    .img-calif
+    {
+        width:13px;
+        height: 13px;
+        margin: 2px 0 0 3px;
+    }
+
+    .div-calificacion
+    {
+        font-family: LatoBold;
+        font-size:16px;
+        margin: 2px 2px 2px 5px;
+    }
+
+    .item-datos-paseo
+    {
+        display: flex;  
+        justify-content: space-between;
+    }
+
+    .bold-span
+    {
+        font-family: LatoSemiBold;
+    }
+
+    .div-datos-paseo
+    {
+        margin-top:60px;
+    }
+
+    .item-datos-paseo
+    {
+        font-size:18px;        
+    }
+
+    .title-datos-paseo
+    {
+        font-family: LatoBold;
+        white-space: nowrap;
+    }
+
+    .puntos-datos-paseo
+    {
+        width:100%;
+        border-bottom:dashed 1px #8EA9B2;
+        margin: 4px 5px;
+    }
+
+    .total-paseo
+    {
+        color:#0099F2;
+    }
+
+    .modalidad-paseo
+    {
+        white-space: nowrap;
+    }
+
+    .div-aclaracion-paseo
+    {
+        color:#575C71;
+        font-size:12px;
+        margin:15px 0 34px 0;
+    }    
+
+    .div-recomendaciones
+    {
+        background:#F0F6F8;
+        color:#05052C;
+        font-size:16px;
+        padding: 20px 59px 38px 58px;                
+    }
+
+    .title-recomendaciones
+    {
+        font-family: LatoBold;
+        font-size:18px;    
+        margin-bottom:25px;
+    }
+
+    .black-recomendaciones
+    {
+        font-family: LatoBold;
+    }
+
+    .item-recomendaciones
+    {
+        margin-bottom:10px;
+    }
+
+    .div-footer-redes
+    {
+        display: flex;
+        width: fit-content;
+        margin:20px auto 23px auto;
+    }
+
+    .div-text-redes
+    {
+        display: flex;
+        width: fit-content;
+        margin: auto 0;
+    }
+
+    .text-redes
+    {
+        font-family:LatoBold;
+        font-size:16px;
+    }
+
+    .div-redes
+    {
+        display:flex;   
+    }
+
+    .item-redes
+    {
+        margin:0 6px;
+    }
+
+    .img-red
+    {
+        width:27px;
+        height: 28px;
+    }
+
+    .img-footer
+    {
+        width:113px;
+        height: 106px;
+    }
+
+    .div-footer-mail
+    {
+        background:#0099F2;
+        text-align: center;
+        // font-size: 12px;        
+        // height: 30px;
+    }
+
+    .text-footer-mail
+    {
+        font-size:12px;
+        margin:auto;
+        font-family: LatoReg;
+        color:white;
+        padding:12px;
+    }
+
+}
