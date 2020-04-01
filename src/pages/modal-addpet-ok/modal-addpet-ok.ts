@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { ViewController } from 'ionic-angular';
+import { AddPaseoPage } from '../add-paseo/add-paseo';
 
 @IonicPage()
 @Component({
@@ -15,7 +16,7 @@ export class ModalAddpetOkPage
 
   closeModal()
   {
-    this.viewCtrl.dismiss();
+    this.navCtrl.setRoot(AddPaseoPage);
   }
 
   ionViewDidLoad() {

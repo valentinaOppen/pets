@@ -7,7 +7,7 @@
     <button ion-button class="btn-back-close" (click)="navigateToOtherPage('close')"><ion-icon name="close"></ion-icon></button>
   </ion-navbar> -->
   <ion-navbar>
-    <button ion-button class="btn-back-paseo" (click)="navigateToOtherPage('HomePage')">
+    <button ion-button class="btn-back-paseo" (click)="navigateHome()">
       <img src="../../assets/icon/ic_arrow_back.svg" alt="" class="icon-back-paseo">
     </button>
     <ion-title class="title-add-paseo">Resumen del Pago</ion-title>
@@ -66,7 +66,7 @@
     </div>
 
     <div class="div-btn-modal-programar-paseo">
-      <button class="btn-programar-paseo" (click)="navigateHome()">Pagar y programar paseo</button>
+      <button class="btn-programar-paseo" (click)="navigateToOtherPage()">Pagar y programar paseo</button>
     </div>
   </div>
 </ion-content>

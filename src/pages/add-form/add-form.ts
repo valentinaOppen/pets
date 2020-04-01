@@ -3,6 +3,7 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { ModalController } from 'ionic-angular';
 import { HomePage } from '../home/home';
 import { Validators, FormBuilder, FormGroup } from '@angular/forms';
+import { AddPaseoPage } from '../add-paseo/add-paseo';
 
 @Component({
   selector: 'page-add-form',
@@ -30,7 +31,7 @@ export class AddFormPage {
   {
     switch (page) {
       case 'close':
-        this.navCtrl.setRoot(HomePage);
+        this.navCtrl.setRoot(AddPaseoPage);
         break;
       case 'ok':
         const modalok = await this.modalController.create('ModalAddpetOkPage');
@@ -43,7 +44,7 @@ export class AddFormPage {
       case 'error-red':
         const modalerrorred = await this.modalController.create('ModalAddpetErrorRedPage');
         modalerrorred.present();
-        break;
+        break;        
     }
     // this.navCtrl.setRoot(HomePage);
     // const modal = await this.modalController.create('ModalAddpetOkPage');
