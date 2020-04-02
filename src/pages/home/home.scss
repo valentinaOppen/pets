@@ -1,15 +1,45 @@
 .container-home
 {
   position: relative;
-  // max-width: fit-content;
-  // margin:20px auto auto auto;
-  margin:20px 20px 7px 20px;
-  // min-height: 100vh;
+  margin:20px 20px 7px 20px;  
   color: #395A97;
   background-color: white;
-  text-align:center;
-  // font-weight: bolder;
+  text-align:center;  
 }
+
+.title-recorrido
+{
+  margin:25px auto 14px auto;
+  color:#01002F;
+  font-size:18px;
+  text-align: left;
+}
+
+.div-content-recorrido
+{
+  margin-bottom:22px;
+  // border:solid 1px #D9E8ED;
+  border-radius: 6px;
+  padding:8px;
+}
+
+.div-mascota-recorrido
+{
+  display: flex;  
+}
+
+.img-mascota-recorrido
+{
+  width: 68px;
+  height: 68px;
+  display:flex;
+}
+
+.item-estado-mascota-recorrido
+{
+  display:flex;
+}
+
 
 .div-text-home
 {

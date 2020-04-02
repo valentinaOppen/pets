@@ -3,6 +3,7 @@ import { NavController } from 'ionic-angular';
 import { LoginPage } from '../login/login';
 import { RegisterPage } from '../register/register';
 import { HomePage } from '../home/home';
+import { AyudaPage } from '../ayuda/ayuda';
 
 @Component({
   selector: 'page-hello-ionic',
@@ -29,4 +30,8 @@ export class HelloIonicPage {
     this.navCtrl.setRoot(HomePage);
   }
 
+  navigateToHelp():void
+  {
+    this.navCtrl.setRoot(AyudaPage);
+  }
 }

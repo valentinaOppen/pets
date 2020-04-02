@@ -27,6 +27,7 @@ import { ModalSaldoInsuficientePageModule } from '../pages/modal-saldo-insuficie
 import { ModalSaldoInsuficientePage } from '../pages/modal-saldo-insuficiente/modal-saldo-insuficiente';
 import { ResumenPagoPage } from '../pages/resumen-pago/resumen-pago';
 import { WakymailPage } from '../pages/wakymail/wakymail';
+import { DetallesPaseoPage } from '../pages/detalles-paseo/detalles-paseo';
 
 @NgModule({
   declarations: [
@@ -46,7 +47,8 @@ import { WakymailPage } from '../pages/wakymail/wakymail';
     WalkTypePage,
     PagoElectronicoPage,
     ResumenPagoPage,
-    WakymailPage
+    WakymailPage,
+    DetallesPaseoPage
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   imports: [
@@ -74,7 +76,8 @@ import { WakymailPage } from '../pages/wakymail/wakymail';
     PagoElectronicoPage,
     ModalSaldoInsuficientePage,
     ResumenPagoPage,
-    WakymailPage
+    WakymailPage,
+    DetallesPaseoPage
   ],
   providers: [
     StatusBar,
