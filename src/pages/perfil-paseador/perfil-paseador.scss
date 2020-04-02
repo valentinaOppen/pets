@@ -1,0 +1,117 @@
+page-perfil-paseador {
+
+    .div-container
+    {
+        padding:18px 13px 0 15px;
+    }
+
+    .div-perfil-paseador
+    {
+        display:flex;        
+    }
+
+    .div-foto
+    {
+        position:relative;
+        width:91px;
+        height: 91px;   
+        margin-right: 19px;     
+    }
+
+    .img-foto
+    {
+        border: solid 1px #D2DFE3;
+        border-radius: 100%;
+    }
+
+    .icon-patita
+    {
+        position: absolute;
+        top: 0;
+        right: 0;
+        background: #B495FA;
+        border-radius: 100%;
+        padding: 4px;
+        border: solid 1px white;
+    }
+
+    .datos
+    {
+        height: fit-content;
+        margin: auto 0;
+    }
+
+    .nombre
+    {
+        font-family: LatoSemiBold;
+        color:#01002F;
+        font-size:16px;
+    }
+
+    .perfil
+    {
+        color:#B495FA;
+        font-size:14px;
+        margin:2px 0;
+    }
+
+    .cedula
+    {
+        color:#575C71;
+        font-size:14px;
+    }
+
+    .div-descripcion-paseador
+    {
+        color:#575C71;
+        font-size: 14px;
+        margin:16px 0;
+    }
+
+    .titulo
+    {
+        font-family:LatoSemiBold;
+        font-size:18px;
+        color:#01002F;
+        margin-bottom:16px;
+    }
+
+    .div-container-about
+    {
+        padding:22px 0;
+        border-top:1px solid #D2DFE3;
+        border-bottom:1px solid #D2DFE3;   
+        margin-bottom:16px;         
+    }
+    
+    .div-datos-paseador 
+    {
+        display: flex;
+        justify-content: space-between;    
+    }
+
+    .div-item-dato
+    {
+        border:solid 1px #D2DFE3;
+        border-radius: 6px;
+        color: #D2DFE3;
+        font-size:12px;
+        height: 48px;
+        width: 105px;        
+    }
+
+    .item-datos
+    {
+        width: fit-content;
+        margin:auto;
+        padding:9px 3px;
+        text-align: center;
+    }
+
+    .img-star
+    {
+        width: 13px;
+        height: 12px;
+    }
+
+}

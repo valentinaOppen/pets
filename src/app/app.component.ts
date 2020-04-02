@@ -20,6 +20,7 @@ import { PagoElectronicoPage } from '../pages/pago-electronico/pago-electronico'
 import { ResumenPagoPage } from '../pages/resumen-pago/resumen-pago';
 import { WakymailPage } from '../pages/wakymail/wakymail';
 import { DetallesPaseoPage } from '../pages/detalles-paseo/detalles-paseo';
+import { PerfilPaseadorPage } from '../pages/perfil-paseador/perfil-paseador';
 
 
 @Component({
@@ -57,6 +58,7 @@ export class MyApp {
       { title: 'Resumen Pago', component: ResumenPagoPage},
       { title: 'Wakymail', component: WakymailPage},
       { title: 'Detalles Paseo', component: DetallesPaseoPage},
+      { title: 'Paseador', component: PerfilPaseadorPage},
     ];
   }
 
