@@ -22,6 +22,7 @@ import { WakymailPage } from '../pages/wakymail/wakymail';
 import { DetallesPaseoPage } from '../pages/detalles-paseo/detalles-paseo';
 import { PerfilPaseadorPage } from '../pages/perfil-paseador/perfil-paseador';
 import { PaseadorCuentaPage } from '../pages/paseador-cuenta/paseador-cuenta';
+import { ListaMascotasPage } from '../pages/lista-mascotas/lista-mascotas';
 
 
 @Component({
@@ -61,6 +62,7 @@ export class MyApp {
       { title: 'Detalles Paseo', component: DetallesPaseoPage},
       { title: 'Paseador', component: PerfilPaseadorPage},
       { title: 'Paseador Cuenta', component: PaseadorCuentaPage},
+      { title: 'Lista Mascotas', component: ListaMascotasPage},
     ];
   }
 
