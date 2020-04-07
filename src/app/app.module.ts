@@ -29,6 +29,7 @@ import { ResumenPagoPage } from '../pages/resumen-pago/resumen-pago';
 import { WakymailPage } from '../pages/wakymail/wakymail';
 import { DetallesPaseoPage } from '../pages/detalles-paseo/detalles-paseo';
 import { PerfilPaseadorPage } from '../pages/perfil-paseador/perfil-paseador';
+import { PaseadorCuentaPage } from '../pages/paseador-cuenta/paseador-cuenta';
 
 
 @NgModule({
@@ -51,7 +52,8 @@ import { PerfilPaseadorPage } from '../pages/perfil-paseador/perfil-paseador';
     ResumenPagoPage,
     WakymailPage,
     DetallesPaseoPage,
-    PerfilPaseadorPage
+    PerfilPaseadorPage,
+    PaseadorCuentaPage
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   imports: [
@@ -81,7 +83,8 @@ import { PerfilPaseadorPage } from '../pages/perfil-paseador/perfil-paseador';
     ResumenPagoPage,
     WakymailPage,
     DetallesPaseoPage,
-    PerfilPaseadorPage
+    PerfilPaseadorPage,
+    PaseadorCuentaPage
   ],
   providers: [
     StatusBar,

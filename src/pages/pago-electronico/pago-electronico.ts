@@ -34,9 +34,29 @@ export class PagoElectronicoPage {
     
     const modalError = await this.modalController.create('ModalSaldoInsuficientePage', null, myModalOptions);
     return await modalError.present();
-    
   }
 
+  async openModalCalificarExp()
+  {  
+    const myModalOptions: ModalOptions = {      
+      cssClass : 'my-modal-exp'
+    };
+    
+    const modalError = await this.modalController.create('ModalCalificarExpPage', null, myModalOptions);
+    return await modalError.present();
+  }
+
+  async openModalCalificarRetro()
+  {  
+    const myModalOptions: ModalOptions = {      
+      cssClass : 'my-modal-exp-retro'
+    };
+    
+    const modalError = await this.modalController.create('ModalCalificarRetroPage', null, myModalOptions);
+    return await modalError.present();
+  }
+
+  
   async openModalPaseoOk()
   {       
     const modalPagoOk = await this.modalController.create('ModalConfirmarPaseoPage');

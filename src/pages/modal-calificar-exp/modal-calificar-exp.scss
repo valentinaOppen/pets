@@ -1,0 +1,139 @@
+page-modal-calificar-exp 
+{
+    .main
+    {
+        background: white;
+        // padding: 20px 20px 21px 24px !important;
+        border-radius: 6px !important;
+        text-align: center;
+    }
+
+    .btn-back-close
+    {
+        color:black;
+    }
+
+    .div-img-modal
+    {
+        padding-top: 57px;
+        width: 136px;
+        height: auto;
+        margin: auto;
+    }
+
+    .title-modal
+    {
+        font-family: LatoBold;
+        font-size: 24px;
+        color: #0099F2;
+        margin: 22px auto 21px auto;
+    }
+
+    .text-modal
+    {
+        margin:0 16px 20px 16px;
+        color:#575C71;
+        font-size:16px;        
+    }
+
+    .div-estrellas
+    {
+        display: grid;
+        grid-template-columns: 25px 25px 25px 25px 25px;
+        column-gap: 13px;
+        width: fit-content;
+        margin:auto;
+    }
+
+    .img-star-modal
+    {
+        // width:25px;
+        height: 24px;        
+    }
+
+    .btn-send-form
+    {
+        margin:5px auto 34px auto !important;
+    }
+
+    .div-text-area-exp
+    {
+        margin:22px auto 17px auto;
+        width: 100%;
+        height: 77px;
+    }
+
+    .text-area-exp
+    {
+        color: #8EA9B2;
+        border: solid 1px #D2DFE3;
+        border-radius: 6px;
+        width: 90%;
+        height: 100%;
+        font-size: 16px;
+        padding:10px 0;
+    }
+}
+
+ion-modal {
+    &.my-modal-exp {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        ion-backdrop {
+            visibility: visible;
+        }
+
+        .modal-wrapper {
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            overflow: auto;
+            width: auto;
+            height: auto;
+            left: auto;
+            top: auto;
+            contain: content;
+
+            max-width: 90%;
+            max-height: 90%;
+
+            border-radius: 6px;
+            box-shadow: 0 28px 48px rgba(0, 0, 0, 0.4);
+
+            > .ion-page {
+                position: relative;
+                display: block;
+                width: auto;
+                height: auto;
+                contain: content;
+                box-shadow: 0 28px 48px rgba(0, 0, 0, 0.4);
+            }
+        }
+
+        &.my-stretch {
+            .modal-wrapper {
+                overflow: hidden;
+                width: 100%;
+                height: 100%;
+
+                > .ion-page {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+
+    &.my-fullscreen {
+        .modal-wrapper {
+            position: absolute;
+            display: block;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    }   
+}

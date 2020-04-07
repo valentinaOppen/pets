@@ -1,9 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { HomePage } from '../home/home';
 
 /**
- * Generated class for the PerfilPaseadorPage page.
+ * Generated class for the ModalCalificarRetroPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -11,21 +10,16 @@ import { HomePage } from '../home/home';
 
 @IonicPage()
 @Component({
-  selector: 'page-perfil-paseador',
-  templateUrl: 'perfil-paseador.html',
+  selector: 'page-modal-calificar-retro',
+  templateUrl: 'modal-calificar-retro.html',
 })
-export class PerfilPaseadorPage {
+export class ModalCalificarRetroPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad PerfilPaseadorPage');
-  }
-
-  navigateToOtherPage()
-  {
-    this.navCtrl.setRoot(HomePage);
+    console.log('ionViewDidLoad ModalCalificarRetroPage');
   }
 
 }

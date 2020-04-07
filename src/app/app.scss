@@ -295,6 +295,16 @@ ion-select
   width: 100%;
 }
 
+page-perfil-paseador 
+{
+  .swiper-pagination-fraction,
+  .swiper-pagination-custom,
+  .swiper-container-horizontal > .swiper-pagination-bullets
+  {  
+    bottom:0px;    
+  }
+}
+
 // REGISTER
 
 .checkbox-ios .checkbox-icon

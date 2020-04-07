@@ -73,7 +73,7 @@ page-perfil-paseador {
         font-family:LatoSemiBold;
         font-size:18px;
         color:#01002F;
-        margin-bottom:16px;
+        // margin-bottom:16px;
     }
 
     .div-container-about
@@ -88,6 +88,7 @@ page-perfil-paseador {
     {
         display: flex;
         justify-content: space-between;    
+        margin-top:14px;
     }
 
     .div-item-dato
@@ -114,4 +115,36 @@ page-perfil-paseador {
         height: 12px;
     }
 
+    .div-galeria-caminata
+    {
+        margin:15px 0 85px 15px;
+    }
+
+    .div-slide
+    {
+        display:grid;
+        margin:16px -21px 0 0;        
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 9px;
+        padding-bottom:30px;
+    }
+
+    .div-image-slide
+    {
+        width:100%;
+    }
+
+    .img-slide
+    {
+        max-width: unset !important;
+        max-height: unset !important;
+        width:100% !important;
+    }
+
+    .text-sin-fotos
+    {
+        color:#575C71;
+        margin-top:13px;
+        font-size:14px;
+    }
 }

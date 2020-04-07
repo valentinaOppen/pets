@@ -1,0 +1,117 @@
+page-paseador-cuenta {
+    
+    .div-header
+    {
+        border-bottom-right-radius: 37px;
+        border-bottom-left-radius: 37px;
+        padding:19px 18px 42px 19px;
+        height: 193px;
+        background: rgba(0,153,242,1);
+        background: -moz-linear-gradient(top, rgba(0,153,242,1) 0%, rgba(53,145,186,1) 100%);
+        background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,153,242,1)), color-stop(100%, rgba(53,145,186,1)));
+        background: -webkit-linear-gradient(top, rgba(0,153,242,1) 0%, rgba(53,145,186,1) 100%);
+        background: -o-linear-gradient(top, rgba(0,153,242,1) 0%, rgba(53,145,186,1) 100%);
+        background: -ms-linear-gradient(top, rgba(0,153,242,1) 0%, rgba(53,145,186,1) 100%);
+        background: linear-gradient(to bottom, rgba(0,153,242,1) 0%, rgba(53,145,186,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0099f2', endColorstr='#3591ba', GradientType=0 );
+    }
+
+    .div-img-logo
+    {
+        width: 111px;
+        height: 25px;
+    }
+
+    .div-img-datos-cuenta
+    {
+        position: relative;
+        margin-top:25px;
+        display:flex;
+    }
+
+    .div-img-perfil
+    {
+        width:81px;
+        height: 81px;
+        border:solid 1px #D2DFE3;
+        border-radius: 100%;
+        margin-right:13px;
+    }
+
+    .div-datos
+    {        
+        color:white;
+        font-size:16px;
+        margin:auto 0;
+    }
+
+    .div-icon-pencil
+    {
+        position: absolute;
+        top:4px;
+        right:6px;
+    }
+
+    .nombre
+    {
+        font-size:18px;
+        font-family: LatoSemiBold;
+    }
+
+    .email
+    {
+        margin:2px 0;
+    }
+
+    .div-opciones
+    {
+        margin:25px 14px 48px 19px;
+    }
+
+    .item-opc
+    {
+        display: flex;
+        border-bottom:solid 1px #d1d1d1;
+        padding:22px 10px 22px 10px;
+    }
+
+    .txt-opc
+    {
+        margin-left:9px;
+        font-size:18px;
+        color:#05052C;
+        flex-grow: 1;
+    }
+
+    .img-opc
+    {
+        width: 21px;
+        height: 21px;
+    }
+
+    .img-arrow
+    {
+        margin:auto;
+    }
+
+
+
+    .div-footer
+    {
+        border-top:solid 1px #F2F2F2;
+        display:flex;
+        color:#575C71;
+        font-size:10px;
+        justify-content: space-between;
+        padding:8px 28px;
+        margin-top:32px;
+    }
+
+  .img-footer
+  {
+    width:29px;
+    height: 27px;
+    margin:auto;
+  }
+
+}
