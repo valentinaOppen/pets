@@ -19,8 +19,8 @@
 
       <div class="item-mascota">
         <div class="btn-mascotas">
-          <button class="btn-pencil"><img src="../../assets/icon/icon_pencil_edit.svg" alt=""></button>
-          <button class="btn-tacho"><img src="../../assets/icon/icon_tacho.svg" alt=""></button>
+          <button class="btn-pencil" (click)="editarMascota()"><img src="../../assets/icon/icon_pencil_edit.svg" alt=""></button>
+          <button class="btn-tacho" (click)="eliminarMascota()"><img src="../../assets/icon/icon_tacho.svg" alt=""></button>
         </div>
         <div class="foto-mascota"><img src="../../assets/imgs/tobias.png" alt="" class="img-masc"></div>
         <div class="div-datos">
@@ -32,8 +32,8 @@
 
       <div class="item-mascota">
         <div class="btn-mascotas">
-          <button class="btn-pencil"><img src="../../assets/icon/icon_pencil_edit.svg" alt=""></button>
-          <button class="btn-tacho"><img src="../../assets/icon/icon_tacho.svg" alt=""></button>
+          <button class="btn-pencil" (click)="editarMascota()"><img src="../../assets/icon/icon_pencil_edit.svg" alt=""></button>
+          <button class="btn-tacho" (click)="eliminarMascota()"><img src="../../assets/icon/icon_tacho.svg" alt=""></button>
         </div>
         <div class="foto-mascota"><img src="../../assets/imgs/tobias.png" alt="" class="img-masc"></div>
         <div class="div-datos">
@@ -43,7 +43,7 @@
         </div>
       </div>
     </div>
-    <button ion-button class="btn-send-form" type="button" block>Agregar mascota</button>
+    <button (click)="editarMascota()" ion-button class="btn-send-form" type="button" block>Agregar mascota</button>
   </div>
 
   <div class="div-footer">

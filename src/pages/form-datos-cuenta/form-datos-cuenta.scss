@@ -1,0 +1,70 @@
+page-form-datos-cuenta 
+{
+    .div-content-cuenta
+    {
+        margin:20px 15px 27px 15px;
+        text-align: center;
+    }
+    
+    .btn-cargar-foto
+    {
+        border:dashed 1px #8EA9B2;
+        width:109px;
+        height: 109px;
+        border-radius: 100%;
+        margin:auto;
+        display: flex;
+    }
+
+    .icon-foto
+    {
+        margin:auto;
+        flex-grow: 1;
+        align-self: center;
+    }
+
+    .btn-subir-foto
+    {
+        border:solid 1px #089cf2;
+        color:#089cf2;
+        font-family:LatoBold;
+        font-size:16px;
+        margin:16px auto 32px auto;
+        background:none;
+        width:150px;
+        height: 45px;
+        border-radius:8px;
+    }
+
+    .div-input-form
+    {
+        margin-bottom:19px;
+    }
+
+    .input-form
+    {
+        border:solid 1px #D9E8ED;
+        border-radius: 6px;
+        font-size:16px;
+        padding:11px 0 15px 15px;
+        width: 100%;
+    }
+
+    .input-form::placeholder
+    {
+        color:#01002F;        
+    }
+
+    .btn-guardar
+    {
+        background:#0099F2;
+        color:white;
+        border-radius: 8px;
+        border:none;
+        width: 275px;
+        height: 45px;
+        margin:115px auto 0 auto;
+        font-family:LatoBold;
+        font-size:18px;
+    }
+}

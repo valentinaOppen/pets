@@ -11,15 +11,15 @@ page-detalles-paseo
 
     .titulo
     {
-        font-size:22px;
+        font-size:18px;
         color:#01002F;
-        margin-bottom:18px;
+        margin-bottom:12px;
         font-family: LatoSemiBold;
     }
 
     .div-detalles
     {
-        margin:0 51px 22px 0px;
+        margin:6px 51px 22px 0px;
     }
 
     .item-detalle
@@ -37,8 +37,9 @@ page-detalles-paseo
 
     .div-dato
     {
-        color:#575C71;
-        font-size:18px;
+        color: #575C71;
+        font-size: 15px;
+        margin: 1px 0;
     }
 
     .div-img-estado
@@ -67,11 +68,61 @@ page-detalles-paseo
         border:solid 1px #D9E8ED;
         border-radius: 6px;
         display: flex;
+        padding:10px;
+        margin-bottom: 11px;
+    }
+
+    .calif-paseador
+    {
+        display: flex;
+    }
+
+    .img-star-paseador
+    {
+        width:10px;
+    }
+
+    .div-img-paseador
+    {
+        width:80px;
+        height:80px;
+        position:relative;
+    }
+
+    .img-patita-paseador
+    {
+        position:absolute;
+        top:0;
+        right:0;
+    }
+
+    .div-datos-paseador
+    {
+        margin: auto 0 auto 10px;
+        color:#7c8090;
+        flex-grow: 1;
+    }
+
+    .div-arrow-next
+    {
+        height: fit-content;
+        margin: auto 5px;
+    }
+
+    .nombre-paseador
+    {
+        color:#303056;
+    }
+
+    .nro-paseos
+    {
+        margin:4px 0;
     }
 
     .img-recorrido-paseo
     {
         width:100%;
+        margin-bottom:12px;
     }
 
     .div-item-mascota
