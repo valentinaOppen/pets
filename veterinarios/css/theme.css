@@ -16307,6 +16307,7 @@ main {
         -ms-flex: 1;
             flex: 1; }
     @media (min-width: 768px) {
+     
       .st-nav .st-nav-menu {
         -webkit-box-align: center;
             -ms-flex-align: center;
@@ -18968,6 +18969,7 @@ hr[class*="bg"] {
   border-radius: 8px !important;
   color:white !important;
   border:#0099F2 !important;
+  text-transform: none !important;
 }
 
 .btn-consulta-programar
@@ -19025,4 +19027,116 @@ hr[class*="bg"] {
 .footer-item
 {
   margin:.5rem 0; 
+}
+
+.text-header-mobile
+{
+  display:none;
+}
+
+.tools-mobile
+{
+  display:none;
+}
+
+.title-consulta-mobile
+{
+  display:none;
+}
+
+.mobile-device
+{
+  display: none;
+}
+
+
+@media (max-width: 375px)
+{
+  .text-header-mobile
+  {
+    display: block;
+   
+  }
+
+  .text-header-full
+  {
+    display:none;
+  }
+
+  .container.overflow-hidden
+  {
+    padding-top:70px !important;
+  }
+
+  .tools-mobile
+  {
+    margin: 30px 10px 20px 10px !important;
+    display:flex;
+  }
+
+  .tools-full
+  {
+    display:none !important;
+  }
+
+  .btn-programar-consulta
+  {
+    width: 100%;
+    text-align: center;    
+    padding: 16px;
+    font-size: 18px;
+    margin-bottom:14px;
+  }
+
+  .rounded.bg-contrast.shadow-box.image-background.p-4
+  {
+    box-shadow: 0px 3px 3px #00000015 !important;
+  }
+
+  .title-consulta-mobile
+  {
+    display:block;
+  }
+
+  .title-consulta-full
+  {
+    display:none;
+  }
+
+  .row-aclaracion-consulta
+  {
+    display: block;
+  }
+
+  .btn-consulta-programar
+  {
+    width: 100%;
+    text-align: center;    
+    /* padding: 16px; */
+    font-size: 14px !important;   
+  }
+
+  .mobile-device
+  {
+    display: block;
+    padding:0;
+  }
+
+  .consulta-mobile
+  {
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .veracidad-mobile
+  {
+    font-weight: 600;
+    width: 80%;
+    margin: 10px auto 20px auto;
+  }
+
+  .veracidad-text-mobile
+  {
+    font-size:.9rem !important;
+  }
 }
