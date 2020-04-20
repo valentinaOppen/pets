@@ -167,7 +167,7 @@
     </nav>
     <main>
         <header class="header section parallax image-background center-bottom cover gradient alpha-8 text-contrast">
-            <div class="container overflow-hidden" style="padding-top:0">
+            <div class="container overflow-hidden" style="padding-top:103px">
                 <div class="row align-items-end">
                     <div class="col-lg-4">
                         <h2 class="bold">¿Necesitas una consulta para tu mascota?</h2>
@@ -219,40 +219,52 @@
                 </div>
                 <div class="row gap-y">
                     <div class="col-md-6">
-                        <div class="rounded bg-contrast shadow-box image-background off-left-background p-4 pl-6 pl-md-9" 
-                        style="background-image: url(img/consulta_1.png); box-shadow: 1px 3px 6px 3px #d6d6d6;
-                        border-radius: 15px !important;">
-                            <div class="div-text-consulta">
+                        <div class="rounded bg-contrast shadow-box image-background p-4" style="box-shadow: 1px 3px 6px 3px #d6d6d6;
+                        border-radius: 15px !important; height: 100% !important;">
+                            <div class="div-cont-text-consulta">
                                 <h4>1. Video consulta</h4>
-                                <p class="text-secondary mb-0" style="margin:20px 0 !important; font-size:80% !important">
-                                    Tendrás una conversación previa con el médico veterinario a 
-                                    través de video llamada, podrás resolver dudas y tener una asesoría personalizada con el 
-                                    fin de solucionar en primer contacto la situación de tu mascota.
-                                </p>
-                                <h6> Precio: $20.000</h6>
+                                <div class="div-consulta">
+                                    <div class="div-imagen-consulta">
+                                        <img src="img/consulta_2.png" style="width:100%" alt="" class="img-consulta">
+                                    </div>
+                                    <div class="div-text-consulta">
+                                        <p class="text-secondary mb-0" style="margin:20px 0 10px 0!important; font-size:70% !important">
+                                            Tendrás una conversación previa con el médico veterinario a 
+                                            través de video llamada, podrás resolver dudas y tener una asesoría personalizada con el 
+                                            fin de solucionar en primer contacto la situación de tu mascota.
+                                        </p>
+                                        <h7 style="font-weight:600"> Precio: $20.000</h7>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="rounded bg-contrast shadow-box image-background off-left-background p-4 pl-6 pl-md-9" 
-                        style="background-image: url(img/consulta_2.png);box-shadow: 1px 3px 6px 3px #d6d6d6;
+                        <div class="rounded bg-contrast shadow-box image-background p-4" style="box-shadow: 1px 3px 6px 3px #d6d6d6;
                         border-radius: 15px !important">
-                            <div class="div-text-consulta">
+                            <div class="div-cont-text-consulta">
                                 <h4>2. Consulta Presencial</h4>
-                                <p class="text-secondary mb-0" style="margin:20px 0 !important; font-size:80% !important">
-                                    Si no es posible solucionar la condición de tu mascota a través de videollamada, 
-                                    nuestro médico veterinario se desplazará con todas las herramientas necesarias hasta tu ubicación. 
-                                </p>
-                                <h6> Precio: $60.000</h6>
-                                <p class="text-secondary mb-0" style="font-size:80% !important">
-                                    Si recibiste video consulta solo pagarás $40.000
-                                </p>
+                                <div class="div-consulta">
+                                    <div class="div-imagen-consulta">
+                                        <img src="img/consulta_2.png" style="width:100%" alt="" class="img-consulta">
+                                    </div>
+                                    <div class="div-text-consulta">
+                                        <p class="text-secondary mb-0" style="margin:20px 0 10px 0!important; font-size:70% !important">
+                                            Si no es posible solucionar la condición de tu mascota a través de videollamada, 
+                                            nuestro médico veterinario se desplazará con todas las herramientas necesarias hasta tu ubicación. 
+                                        </p>
+                                        <h7 style="font-weight:600"> Precio: $60.000</h7>
+                                        <p class="text-secondary mb-0" style="font-size:70% !important; margin-top:10px !important">
+                                            Si recibiste video consulta solo pagarás $40.000
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>              
                 </div>
                 <div class="row row-aclaracion-consulta">
-                    <div class="text">                        
+                    <div class="text" style="font-size: .83rem;">                        
                         <p><span class="bold" style="margin-right:3px">Nota: </span>Si previamente realizaste el pago por consulta a través de videollamada, 
                         este valor se abonará para la consulta presencial pagando así únicamente el valor restante. ($40.000)
                         </p>
@@ -277,7 +289,7 @@
                     </p>
                     <p class="lead text-secondary">
                         Podrás validar la información de tu médico asignado en este enlace: 
-                        https://administrador.consejoapp.com.co/index.php/consultas/profesionales
+                        https://administrador.consejoapp.com.co<br>/index.php/consultas/profesionales
                     </p>
                 </div>
             </div>
@@ -301,36 +313,80 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-4">
-                        <h2>Do you have <span class="bold">questions</span></h2>
+                        <h2>Tienes <span class="bold">preguntas</span></h2>
                         <p class="lead">Not sure how this template can help you? Wonder why you need to buy our theme?</p>
                         <p class="text-muted">Here are the answers to some of the most common questions we hear from our appreciated customers</p>
                     </div>
                     <div class="col-md-8">
                         <div class="accordion accordion-clean" id="common-faqs-accordion">
                             <div class="card mb-3">
-                                <div class="card-header"><a href="#" style="color:#68acf7 !important; font-weight: 600;" class="card-title btn" data-toggle="collapse" data-target="#q1"><i class="fas fa-angle-down angle"></i> What does the package include?</a></div>
+                                <div class="card-header"><a href="#" style="color:#68acf7 !important; font-weight: 600;" class="card-title btn" data-toggle="collapse" data-target="#q1"><i class="fas fa-angle-down angle"></i>¿Los Veterinarios están verificados?</a></div>
                                 <div id="q1" class="collapse show" data-parent="#common-faqs-accordion">
-                                    <div class="card-body">When you buy Dashcore, you get all you see in the demo but the images. We include SASS files for styling, complete JS files with comments, all HTML variations. Besides we include all mobile PSD mockups.</div>
+                                    <div class="card-body">Todos nuestros veterinarios están verificados y cuentan con tarjeta profesional que los acredita como expertos en medicina veterinaria para atender a tu mascota.
+                                    </div>
                                 </div>
                             </div>
                             <div class="card mb-3">
-                                <div class="card-header"><a href="#" style="color:#68acf7 !important; font-weight: 600;" class="card-title btn" data-toggle="collapse" data-target="#q2"><i class="fas fa-angle-down angle"></i> What is the typical response time for a support question?</a></div>
-                                <div id="q2" class="collapse" data-parent="#common-faqs-accordion">
-                                    <div class="card-body">Since you report us a support question we try to make our best to find out what is going on, depending on the case it could take more or les time, however a standard time could be minutes or hours.</div>
+                                <div class="card-header"><a href="#" style="color:#68acf7 !important; font-weight: 600;" class="card-title btn" data-toggle="collapse" data-target="#q1"><i class="fas fa-angle-down angle"></i>¿Cuales son los métodos de pago?</a></div>
+                                <div id="q1" class="collapse show" data-parent="#common-faqs-accordion">
+                                    <div class="card-body">
+                                        Para las consultas presenciales el pago puede ser en efectivo o por transferencia, para las consultas online el pago es por transferencia, los métodos de pago que tenemos son: 
+                                        *cuenta de ahorros bancolombia: # 55185075001 
+                                        *Nequi o Daviplata: # 3227657883
+                                        una vez realices el pago nos envías el comprobante al siguiente whatsapp https://wa.me/573227657883
+                                    </div>
                                 </div>
                             </div>
                             <div class="card mb-3">
-                                <div class="card-header"><a href="#" style="color:#68acf7 !important;font-weight: 600;" class="card-title btn" data-toggle="collapse" data-target="#q3"><i class="fas fa-angle-down angle"></i> What do I need to know to customize this template?</a></div>
-                                <div id="q3" class="collapse" data-parent="#common-faqs-accordion">
-                                    <div class="card-body">Our documentation give you all you need to customize your copy. However you will need some basic web design knowledge (HTML, Javascript and CSS)</div>
+                                <div class="card-header"><a href="#" style="color:#68acf7 !important; font-weight: 600;" class="card-title btn" data-toggle="collapse" data-target="#q1"><i class="fas fa-angle-down angle"></i>¿En qué ciudades funciona?</a></div>
+                                <div id="q1" class="collapse show" data-parent="#common-faqs-accordion">
+                                    <div class="card-body">Funcionamos en Bogotá, Medellín (incluye área metropolitana)  y Cali, muy pronto abriremos en más ciudades.</div>
                                 </div>
                             </div>
-                            <div class="card">
-                                <div class="card-header"><a href="#" style="color:#68acf7 !important; font-weight: 600;" class="card-title btn" data-toggle="collapse" data-target="#q4"><i class="fas fa-angle-down angle"></i> Can I suggest a new feature?</a></div>
-                                <div id="q4" class="collapse" data-parent="#common-faqs-accordion">
-                                    <div class="card-body">Definitely <span class="bold">Yes</span>, you can contact us to let us know your needs. If your suggestion represents any value to both we can include it as a part of the theme or you can request a custom build by an extra cost. Please note it could take some time in order for the feature to be implemented.</div>
+                            <div class="card mb-3">
+                                <div class="card-header"><a href="#" style="color:#68acf7 !important; font-weight: 600;" class="card-title btn" data-toggle="collapse" data-target="#q1"><i class="fas fa-angle-down angle"></i>¿Cómo puedo registrarme y ser veterinario con Wakypet?</a></div>
+                                <div id="q1" class="collapse show" data-parent="#common-faqs-accordion">
+                                    <div class="card-body">
+                                        Wakypet debes contar con tarjeta profesional y no tener ningún antecedente judicial, puedes realizar el registro y adjuntar los documentos en el siguiente link: https://wakypet.com/ser-veterinario
+                                    </div>
                                 </div>
                             </div>
+                            <div class="card mb-3">
+                                <div class="card-header"><a href="#" style="color:#68acf7 !important; font-weight: 600;" class="card-title btn" data-toggle="collapse" data-target="#q1"><i class="fas fa-angle-down angle"></i>¿Cómo funcionan las consultas o asistencias Online?</a></div>
+                                <div id="q1" class="collapse show" data-parent="#common-faqs-accordion">
+                                    <div class="card-body">
+                                        *Consulta express Online: Sirve cuando quieres resolver dudas simples sobre el cuidado de tu mascota , como: qué alimentación darle , como evitar que se le caiga el pelo, que antipulgas darle, recomendaciones de higiene y prevención, averiguar cuál es la próxima vacuna , desparacitacion, la duración es de máximo 5 a 7 minutos, en el cual te conectaremos por whatsapp con el veterinario.
+                                        *Pre-consulta Online: Si quieres una consulta presencial o a domicilio, debes primero tener contacto vía online con el veterinario a través de videollamada por whatsapp , donde mirara la situación de tu mascota , te resolverá dudas y en caso de ser requerido  se programara la consulta presencial , recuerda que el dinero que pagues de esta pre-consulta online servirá como abono para tu consulta presencial.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card mb-3">
+                                <div class="card-header"><a href="#" style="color:#68acf7 !important; font-weight: 600;" class="card-title btn" data-toggle="collapse" data-target="#q1"><i class="fas fa-angle-down angle"></i>¿Cómo funciona la aplicación de vacunas o medicamentos?</a></div>
+                                <div id="q1" class="collapse show" data-parent="#common-faqs-accordion">
+                                    <div class="card-body">Nuestros especialistas se desplazarán hasta tu domicilio para realizar el procedimiento de aplicación de vacunas o medicamentos a tu mascota. 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card mb-3">
+                                <div class="card-header"><a href="#" style="color:#68acf7 !important; font-weight: 600;" class="card-title btn" data-toggle="collapse" data-target="#q1"><i class="fas fa-angle-down angle"></i>¿Cómo funciona la consulta presencial?</a></div>
+                                <div id="q1" class="collapse show" data-parent="#common-faqs-accordion">
+                                    <div class="card-body">como parte del proceso primero debes realizar una Pre-consulta online , en la cual el veterinario verificará la situación con tu mascota , y de ser necesario se desplazará a tu domicilio para realizar la consulta presencial (recuerda que el valor que pagues de la pre-consulta online se te abonará al valor de la consulta presencial )
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card mb-3">
+                                <div class="card-header"><a href="#" style="color:#68acf7 !important; font-weight: 600;" class="card-title btn" data-toggle="collapse" data-target="#q1"><i class="fas fa-angle-down angle"></i>¿Cual es el precio de los servicios veterinarios?</a></div>
+                                <div id="q1" class="collapse show" data-parent="#common-faqs-accordion">
+                                    <div class="card-body">
+                                        *Consulta express Online: $10,000
+                                        *Pre-consulta Online: $20,000
+                                        *Consulta Presencial: $60,000 (si ya pagaste la Pre-consulta online , solo deberás pagar el restante que serían $40,000 )
+                                        *Aplicación de vacunas o medicamentos: $30,000 (si ya pagaste la consulta express online , solo deberás pagar el restante que serían $20,000, recuerda este valor no incluye el precio de los medicamentos )
+                                            Todavía tengo dudas que hago?: si aún tienes dudas sobre nuestros servicios veterinarios, contactanos, te las resolveremos en el siguiente link: https://wa.me/573227657883
+                                    </div>
+                                </div>
+                            </div>
+                            
                         </div>
                     </div>
                 </div>
@@ -342,14 +398,14 @@
             <nav class="nav social-icons justify-content-center">
                 <a href="#" class="mr-3 font-regular" style="color:white"><i class="fab fa-facebook-f"></i>/Wakypet</a>                 
                 <a href="#" class="mr-3 font-regular" style="color:white"><i class="fab fa-instagram"></i>/Wakypetcol</a>                
-                <a href="#" class="font-regular" style="color:white"><i class="fab fa-linkedin-in"></i>/Walypet</a>
+                <a href="#" class="font-regular" style="color:white"><i class="fab fa-linkedin-in"></i>/Wakypet</a>
             </nav>                        
         </footer>
         <footer class="site-footer section block bg-contrast">
             <div class="container py-6">
-                <div class="row align-items-center">
-                    <div class="col-md-3 text-center text-md-left">
-                        <img src="img/logo-waky.png" alt="" style="width:10%">
+                <div class="row align-items-center" style="font-size: 80%;">
+                    <div class="col-md-4 text-center text-md-left">
+                        <img src="img/logo-waky.png" alt="" style="width:28%">
                         <nav class="nav justify-content-center justify-content-md-start">
                             <a class="nav-item nav-link" style="padding:1rem 1rem .5rem 0" href="about.html">Acerca de nosotros</a> 
                             <a class="nav-item nav-link" style="padding:1rem 1rem .5rem 0" href="#">Contacto</a>                             
@@ -358,21 +414,22 @@
                     </div>
                     
                     <div class="col-md-4 text-left">
-                        <p>Nuestra oficina</p>
-                        <p>CL 17 # 43 F- 287, Medellin, Antioquia</p>
-                        <p>(+57)322-765-78-83</p>
-                        <p>info@wakypet.com</p>
+                        <p class="footer-item-title">Nuestra oficina</p>
+                        <p class="footer-item">¿Necesitas localizarnos?</p>
+                        <p class="footer-item">CL 17 # 43 F- 287, Medellin, Antioquia</p>
+                        <p class="footer-item">(+57)322-765-78-83</p>
+                        <p class="footer-item">info@wakypet.com</p>
                     </div>
                     
-                    <div class="col-md-5 text-center text-md-right">                        
-                        <p>Subscribirse a nuestro newsletter</p>
+                    <div class="col-md-4 text-center text-md-right">                        
+                        <p class="footer-item">Subscribirse a nuestro newsletter</p>
                         <p>
                             Al registrarse con nosotros, recibirá en su bandeja de entrada 
                             todas las nuevas funciones y actualizaciones. <span class="bold">¡Subscríbete ahora!</span>
                         </p>
                         <form action="srv/register.php" class="form" data-response-message-animation="slide-in-left">
-                            <div class="input-group"><input type="email" name="Subscribe[email]" class="form-control rounded-circle-left" placeholder="Enter your email" required>
-                                <div class="input-group-append"><button class="btn btn-rounded btn-primary" type="submit">Register</button></div>
+                            <div class="input-group"><input type="email" name="Subscribe[email]" class="form-control rounded-circle-left" placeholder="Ingrese su email" required>
+                                <div class="input-group-append"><button class="btn btn-rounded btn-primary" type="submit">Registrarse</button></div>
                             </div>
                         </form>
                     </div>
