@@ -19049,6 +19049,10 @@ hr[class*="bg"] {
   display: none;
 }
 
+.img-medidas-mobile
+{
+  display:none;
+}
 
 @media (max-width: 375px)
 {
@@ -19139,4 +19143,15 @@ hr[class*="bg"] {
   {
     font-size:.9rem !important;
   }
+
+  .img-medidas-mobile
+  {
+    display:block;
+  }
+
+  .img-medidas-full
+  {
+    display:none;
+  }
+
 }
