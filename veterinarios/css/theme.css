@@ -19054,7 +19054,7 @@ hr[class*="bg"] {
   display:none;
 }
 
-@media (max-width: 375px)
+@media (max-width: 812px)
 {
   .text-header-mobile
   {
@@ -19154,4 +19154,13 @@ hr[class*="bg"] {
     display:none;
   }
 
+}
+
+
+@media (max-width: 992px) and (min-width:812px)
+{
+  .padding-header
+  {
+    padding-top:60px !important;
+  }
 }

@@ -30,7 +30,7 @@ export class HelloIonicPage {
     this.navCtrl.setRoot(HomePage);
   }
 
-  navigateToHelp():void
+  openModalAyuda():void
   {
     this.navCtrl.setRoot(AyudaPage);
   }
