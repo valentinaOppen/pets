@@ -18989,3 +18989,23 @@ hr[class*="bg"] {
 {
   background-color:#f9c23f;
 }
+
+.btns-responsive
+{
+  display:flex;
+}
+
+@media (max-width: 1200px) 
+{
+  .btns-responsive
+  {
+    display:inline;
+  }
+
+  .btn-download-responsive
+  {
+    width: fit-content;
+    margin-bottom:20px !important;
+    min-width:241px;
+  }
+}
