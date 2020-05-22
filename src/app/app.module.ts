@@ -32,6 +32,7 @@ import { PerfilPaseadorPage } from '../pages/perfil-paseador/perfil-paseador';
 import { PaseadorCuentaPage } from '../pages/paseador-cuenta/paseador-cuenta';
 import { ListaMascotasPage } from '../pages/lista-mascotas/lista-mascotas';
 import { FormDatosCuentaPage } from '../pages/form-datos-cuenta/form-datos-cuenta';
+import { ContactoPage } from '../pages/contacto/contacto';
 
 
 @NgModule({
@@ -57,7 +58,8 @@ import { FormDatosCuentaPage } from '../pages/form-datos-cuenta/form-datos-cuent
     PerfilPaseadorPage,
     PaseadorCuentaPage,
     ListaMascotasPage,
-    FormDatosCuentaPage
+    FormDatosCuentaPage,
+    ContactoPage
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   imports: [
@@ -90,7 +92,8 @@ import { FormDatosCuentaPage } from '../pages/form-datos-cuenta/form-datos-cuent
     PerfilPaseadorPage,
     PaseadorCuentaPage,
     ListaMascotasPage,
-    FormDatosCuentaPage
+    FormDatosCuentaPage,
+    ContactoPage,
   ],
   providers: [
     StatusBar,

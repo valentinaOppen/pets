@@ -24,6 +24,7 @@ import { PerfilPaseadorPage } from '../pages/perfil-paseador/perfil-paseador';
 import { PaseadorCuentaPage } from '../pages/paseador-cuenta/paseador-cuenta';
 import { ListaMascotasPage } from '../pages/lista-mascotas/lista-mascotas';
 import { FormDatosCuentaPage } from '../pages/form-datos-cuenta/form-datos-cuenta';
+import { ContactoPage } from '../pages/contacto/contacto'
 
 
 @Component({
@@ -65,6 +66,7 @@ export class MyApp {
       { title: 'Paseador Cuenta', component: PaseadorCuentaPage},
       { title: 'Lista Mascotas', component: ListaMascotasPage},
       { title: 'Datos Cuenta', component: FormDatosCuentaPage},
+      { title: 'Contacto', component: ContactoPage},
       
     ];
   }

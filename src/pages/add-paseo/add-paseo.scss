@@ -369,6 +369,35 @@
   font-family: LatoBold;
   border:none;
   border-radius: 8px;
-  margin:24px auto 28px auto;
+  margin:24px auto 7px auto;
   color:white;
+}
+
+.div-cancelar
+{
+  text-align: center;
+}
+
+.btn-cancelar
+{
+  width:275px !important;
+  height: 45px;
+  width: fit-content;
+  background-color: white;
+  font-size: 18px;
+  font-family: LatoBold;
+  border: solid 1px #0099F2;
+  border-radius: 8px;
+  margin:7px auto 0px auto;
+  color:#0099F2;
+}
+
+.div-pausar-container
+{
+  width: 275px !important;
+  height: 22px;
+  background-color: white;
+  font-size: 18px;
+  font-family: LatoRegular;
+  margin: 19px auto 19x auto !important;
 }
