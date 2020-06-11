@@ -2,7 +2,7 @@
 {
     background:#F2F2F2;
     border: solid 1px #F2F2F2;
-    height: 100vh;
+    // height: 100vh;
 }
 
 .content-pago-electronico
@@ -166,5 +166,21 @@
     height: 100;
     width:280px;    
     margin: 160px auto auto auto !important;
+}
+
+.div-item-mov
+{
+    text-align: left;
+    padding: 0 15px;
+}
+
+.item-mov
+{
+    margin:10px auto;
+    color: #8EA9B2;
+    border-bottom: solid 1px #8EA9B2;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 3px;
 }
 
